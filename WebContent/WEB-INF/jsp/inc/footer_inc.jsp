@@ -39,7 +39,7 @@
 							<p>Lorem ipsum dolor sit cnr adipisicing elit, sed do eiusmod tempo.</p>
 						</div>
 						 -->
-						<h4><spring:message code="footer-title-1"/></h4>
+						<h4 class="font-section-title"><spring:message code="footer-title-1"/></h4>
 						<div class="ftr__address__inner">
 							<div class="ftr__address">
 								<div class="ftr_icon">
@@ -66,7 +66,7 @@
 				<!-- Start Single Widget -->
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="footer__widget">
-						<h4><spring:message code="footer-title-2"/></h4>
+						<h4 class="font-section-title"><spring:message code="footer-title-2"/></h4>
 						<div class="ftr__address__inner">
 							<div class="ftr__address">
 								<div class="ftr_icon">
@@ -109,7 +109,7 @@
 				<!-- Start Single Widget -->
 				<div class="col-lg-3 col-md-6 col-sm-12 sm-mt-40">
 					<div class="footer__widget">
-						<h4><spring:message code="footer-title-3"/></h4>
+						<h4 class="font-section-title"><spring:message code="footer-title-3"/></h4>
 						<div class="footer__innner">
 							<div class="ftr__latest__post">
 								<!-- Start Single -->
@@ -148,7 +148,7 @@
 				<!-- Start Single Widget -->
 				<div class="col-lg-3 col-md-6 col-sm-12 md-mt-40 sm-mt-40">
 					<div class="footer__widget">
-						<h4><spring:message code="footer-title-4"/></h4>
+						<h4 class="font-section-title"><spring:message code="footer-title-4"/></h4>
 						<div class="footer__innner">
 							<div class="dcare__twit__wrap">
 								<ul class="sm__gallery__list d-flex flex-wrap">

@@ -87,7 +87,7 @@
 										<h1>Play & learn, Create Beautiful Heaven World</h1>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
 										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#">Read More</a>
+											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
 										</div>
 									</div>
 								</div>
@@ -98,28 +98,6 @@
 				</div>
 			</div>
 			
-			<div class="slider__area slider--two bg-pngimage--2 d-flex slider__fixed--height justify-content-end align-items-center">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-							<div class="slider__activation">
-								<!-- Start Single Slide -->
-								<div class="slide">
-									<div class="slide__inner">
-										<h6>Create New Things</h6>
-										<h1>Play & learn, Create Beautiful Heaven World</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
-										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#">Read More</a>
-										</div>
-									</div>
-								</div>
-								<!-- End Single Slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 			
 			<div class="slider__area slider--two bg-pngimage--3 d-flex slider__fixed--height justify-content-end align-items-center">
 				<div class="container">
@@ -129,11 +107,11 @@
 								<!-- Start Single Slide -->
 								<div class="slide">
 									<div class="slide__inner">
-										<h6>Create New Things</h6>
-										<h1>Play & learn, Create Beautiful Heaven World</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
+										<h6></h6>
+										<h1 style="color:#eeeeee">Slogan 2</h1>
+										<p  style="color:#eeeeee">Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
 										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#">Read More</a>
+											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
 										</div>
 									</div>
 								</div>
@@ -152,11 +130,11 @@
 								<!-- Start Single Slide -->
 								<div class="slide">
 									<div class="slide__inner">
-										<h6>Create New Things</h6>
-										<h1>Play & learn, Create Beautiful Heaven World</h1>
+										<h6></h6>
+										<h1>Slogan 3</h1>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
 										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#">Read More</a>
+											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
 										</div>
 									</div>
 								</div>
@@ -196,13 +174,13 @@
 									<span>$99</span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html">Drawing Class</a></h4>
+									<h4><a href="class-details.html"><spring:message code="class-name-robotics"/></a></h4>
 									<ul class="class__time">
-										<li>Infant Care : 0.8 - 2.5 Years</li>
-										<li>Class Size : 8</li>
+										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
+										<li><spring:message code="class-size"/> : 12</li>
 									</ul>
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html">Admission Now</a>
+										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
 									</div>
 								</div>
 							</div>
@@ -223,13 +201,13 @@
 									<span>$99</span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html">Active Learning</a></h4>
+									<h4><a href="class-details.html"><spring:message code="class-name-art"/></a></h4>
 									<ul class="class__time">
-										<li>Infant Care : 0.8 - 2.5 Years</li>
-										<li>Class Size : 8</li>
+										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
+										<li><spring:message code="class-size"/> : 12</li>
 									</ul>
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html">Admission Now</a>
+										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
 									</div>
 								</div>
 							</div>
@@ -250,13 +228,13 @@
 									<span>$99</span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html">Swimming Class</a></h4>
+									<h4><a href="class-details.html"><spring:message code="class-name-taikwando"/></h4>
 									<ul class="class__time">
-										<li>Infant Care : 0.8 - 2.5 Years</li>
-										<li>Class Size : 8</li>
+										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
+										<li><spring:message code="class-size"/> : 12</li>
 									</ul>
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html">Admission Now</a>
+										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
 									</div>
 								</div>
 							</div>
@@ -277,13 +255,13 @@
 									<span>$99</span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html">Swimming Class</a></h4>
+									<h4><a href="class-details.html"><spring:message code="class-name-dancing"/></a></h4>
 									<ul class="class__time">
-										<li>Infant Care : 0.8 - 2.5 Years</li>
-										<li>Class Size : 8</li>
+										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
+										<li><spring:message code="class-size"/> : 12</li>
 									</ul>
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html">Admission Now</a>
+										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
 									</div>
 								</div>
 							</div>
@@ -304,13 +282,13 @@
 									<span>$99</span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html">Swimming Class</a></h4>
+									<h4><a href="class-details.html"><spring:message code="class-name-music"/></a></h4>
 									<ul class="class__time">
-										<li>Infant Care : 0.8 - 2.5 Years</li>
-										<li>Class Size : 8</li>
+										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
+										<li><spring:message code="class-size"/> : 12</li>
 									</ul>
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html">Admission Now</a>
+										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
 									</div>
 								</div>
 							</div>
@@ -331,13 +309,13 @@
 									<span>$99</span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html">Swimming Class</a></h4>
+									<h4><a href="class-details.html"><spring:message code="class-name-funchinese"/></a></h4>
 									<ul class="class__time">
-										<li>Infant Care : 0.8 - 2.5 Years</li>
-										<li>Class Size : 8</li>
+										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
+										<li><spring:message code="class-size"/> : 12</li>
 									</ul>
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html">Admission Now</a>
+										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
 									</div>
 								</div>
 							</div>
@@ -386,7 +364,7 @@
 							
 							</p>
 							<div class="wel__btn">
-								<a class="dcare__btn" href="about-us.html">Read More</a>
+								<a class="dcare__btn" href="about-us.html"><spring:message code="common-btn-readmore"/></a>
 							</div>
 						</div>
 					</div>
@@ -396,7 +374,8 @@
 		<!-- End Welcome Area -->
 		
 		<!-- Start Our Service Area -->
-		<section class="junior__service bg-image--1 service--2 section-padding--sm--bottom section--padding--md--top">
+		<!-- 
+		<section class="junior__service bg-image--9 service--2 section-padding--sm--bottom section--padding--md--top">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-lg-12 col-sm-12">
@@ -409,7 +388,6 @@
 				</div>
 			
 				<div class="row">
-					<!-- Start Single Service -->
 					<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 						<div class="service border__color border__color--5 bg__cat--4">
 							<div class="service__icon">
@@ -419,13 +397,12 @@
 								<h6><a href="single-service.html">Drawing Class</a></h6>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor am quaerat voluptatem.</p>
 								<div class="service__btn">
-									<a class="dcare__btn btn__f1f1f1 hover__444  min__height-btn" href="single-service.html">Read More</a>
+									<a class="dcare__btn btn__f1f1f1 hover__444  min__height-btn" href="single-service.html"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
+					
 					<div class="col-lg-3 col-md-6 col-sm-6 col-12 xs-mt-60">
 						<div class="service border__color border__color--6 bg__cat--5">
 							<div class="service__icon">
@@ -435,13 +412,12 @@
 								<h6><a href="single-service.html">Active Learning</a></h6>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor am quaerat voluptatem.</p>
 								<div class="service__btn">
-									<a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn" href="single-single-service.html">Read More</a>
+									<a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn" href="single-single-service.html"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
+					
 					<div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
 						<div class="service border__color border__color--7 bg__cat--6">
 							<div class="service__icon">
@@ -451,13 +427,12 @@
 								<h6><a href="single-service.html">Creative Lesson</a></h6>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor am quaerat voluptatem.</p>
 								<div class="service__btn">
-									<a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn" href="single-service.html">Read More</a>
+									<a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn" href="single-service.html"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
+					
 					<div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
 						<div class="service border__color border__color--8 bg__cat--7">
 							<div class="service__icon">
@@ -467,20 +442,20 @@
 								<h6><a href="single-service.html">Yoga Class</a></h6>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor am quaerat voluptatem.</p>
 								<div class="service__btn">
-									<a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn" href="single-service.html">Read More</a>
+									<a class="dcare__btn btn__f1f1f1 hover__444 min__height-btn" href="single-service.html"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- End Single Service -->
 				</div>
 			</div>
 		</section>
+		 -->
 		<!-- End Our Service Area -->
 		
 		
 		<!-- Start Our Gallery Area -->
-		<section class="junior__gallery__area gallery--2 bg--white section-padding--sm">
+		<section class="junior__gallery__area gallery--2 bg--white section-padding--sm bg-image--1">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
