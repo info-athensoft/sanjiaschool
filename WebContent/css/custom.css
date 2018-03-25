@@ -1,0 +1,36 @@
+/*********************************************************************************
+
+    Template Name: JuniorHome Day Care  Bootstrap 4 Template  
+    Template URI: https://themeforest.net/user/hastech
+    Description: JuniorHome is a beautifula and unique Day Care Bootstrap 4 template.
+    Author: HasTech
+    Author URI: https://hastech.company/
+    Version: 1.0
+
+    Note: This is style css.
+
+**********************************************************************************/
+
+div{
+	font-family: "Microsoft YaHei" ! important;
+}
+
+.font-dark{
+	color:#333 !  important ;
+}
+
+.font-companyname{
+	font-size: 21px;
+  	font-weight: 550;
+}
+
+.font-companyname2{
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+  	font-weight: 500;
+}
+
+.font-section-title{
+	font-family: "Microsoft YaHei", "Roboto", sans-serif ! important;
+	font-weight: 500 ! Important;
+}
