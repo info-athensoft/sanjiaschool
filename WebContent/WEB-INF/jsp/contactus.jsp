@@ -79,7 +79,7 @@
 		<!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
             <div class="ht__bradcaump__container">
-            	<!-- <img src="/images/bg-png/6.png" alt="bradcaump images">  -->
+            	<img src="${site_img_dir}/bg-png/bar.png" alt="bradcaump images">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -325,12 +325,12 @@
             // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
             var mapOptions = {
                 // How zoomed in you want the map to start at (always required)
-                zoom: 12,
+                zoom: 16,
 
                 scrollwheel: false,
 
                 // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(23.7286, 90.3854), // New York
+                center: new google.maps.LatLng(45.4818917,-73.6184626), // Montreal
 
                 // How you would like to style the map. 
                 // This is where you would paste any style found on Snazzy Maps.
@@ -378,7 +378,7 @@
 
             // Let's also add a marker while we're at it
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(23.7286, 90.3854),
+                position: new google.maps.LatLng(45.4818917,-73.6184626),
                 map: map,
                 title: 'Dcare!',
                 icon: '/images/icons/map.png',

@@ -850,6 +850,12 @@ a#scrollUp {
   background-position: center center; }
 
 /* Background Image */
+.bg-pngimage--bar {
+  background-image: url(/site_img/bg-png/bar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  
 .bg-pngimage--1 {
   background-image: url(/site_img/bg-png/1.jpg);
   background-repeat: no-repeat;

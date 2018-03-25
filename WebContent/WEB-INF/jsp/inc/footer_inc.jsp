@@ -39,7 +39,7 @@
 							<p>Lorem ipsum dolor sit cnr adipisicing elit, sed do eiusmod tempo.</p>
 						</div>
 						 -->
-						<h4>School Location</h4>
+						<h4><spring:message code="footer-title-1"/></h4>
 						<div class="ftr__address__inner">
 							<div class="ftr__address">
 								<div class="ftr_icon">
@@ -66,7 +66,7 @@
 				<!-- Start Single Widget -->
 				<div class="col-lg-3 col-md-6 col-sm-12">
 					<div class="footer__widget">
-						<h4>Reach us</h4>
+						<h4><spring:message code="footer-title-2"/></h4>
 						<div class="ftr__address__inner">
 							<div class="ftr__address">
 								<div class="ftr_icon">
@@ -109,7 +109,7 @@
 				<!-- Start Single Widget -->
 				<div class="col-lg-3 col-md-6 col-sm-12 sm-mt-40">
 					<div class="footer__widget">
-						<h4>Latest Blog</h4>
+						<h4><spring:message code="footer-title-3"/></h4>
 						<div class="footer__innner">
 							<div class="ftr__latest__post">
 								<!-- Start Single -->
@@ -120,8 +120,8 @@
 										</a>
 									</div>
 									<div class="ftr__post__details">
-										<h6><a href="blog-details.html">Sports Day is near! so lets get ready soon</a></h6>
-										<span><i class="fa fa-calendar"></i>30th Dec, 2017</span>
+										<h6><a href="blog-details.html">Event #1 is near! so lets get ready soon</a></h6>
+										<span><i class="fa fa-calendar"></i>April 8th, 2018</span>
 									</div>
 								</div>
 								<!-- End Single -->
@@ -133,8 +133,8 @@
 										</a>
 									</div>
 									<div class="ftr__post__details">
-										<h6><a href="blog-details.html">Sports Day is near! so lets get ready soon</a></h6>
-										<span><i class="fa fa-calendar"></i>30th Dec, 2017</span>
+										<h6><a href="blog-details.html">Camp Day is near! so lets get ready soon</a></h6>
+										<span><i class="fa fa-calendar"></i>July 17th, 2018</span>
 									</div>
 								</div>
 								<!-- End Single -->
@@ -148,7 +148,7 @@
 				<!-- Start Single Widget -->
 				<div class="col-lg-3 col-md-6 col-sm-12 md-mt-40 sm-mt-40">
 					<div class="footer__widget">
-						<h4>From Gallery</h4>
+						<h4><spring:message code="footer-title-4"/></h4>
 						<div class="footer__innner">
 							<div class="dcare__twit__wrap">
 								<ul class="sm__gallery__list d-flex flex-wrap">

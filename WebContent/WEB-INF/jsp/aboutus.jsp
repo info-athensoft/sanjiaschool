@@ -79,7 +79,7 @@
 		<!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
             <div class="ht__bradcaump__container">
-            	<!-- <img src="/images/bg-png/6.png" alt="bradcaump images">  -->
+            	<img src="${site_img_dir}/bg-png/bar.png" alt="bradcaump images">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -110,10 +110,22 @@
 				</div>
 				
 				
+				<div class="row text-center">
+					<div class="col-lg-2">
+					</div>	
+					<div class="col-lg-8 col-sm-8 col-md-8">
+						<img src="${site_img_dir}/about/1.jpg" width="80%"/>
+					</div>
+					<div class="col-lg-2">
+					</div>
+				</div>
+				
 				<div class="row mt--20">
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
+					<p><br/></p>
+					
 					<p>“三佳”代表着培养学生德智体全面发展的教育理念，“三佳”作为一个品牌在蒙特利尔已经跨入了第八个年头。<br/><br/></p>
  
 					<p>2010年，三佳中文学校诞生。<br/><br/></p>

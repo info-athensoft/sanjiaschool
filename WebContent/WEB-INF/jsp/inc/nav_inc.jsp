@@ -48,29 +48,29 @@
                            <li class="drop"><a href="/aboutus.html"><spring:message code="menu-about"/></a>
                            	    
                                <ul class="dropdown__menu">
-                                   <li><a href="/aboutus.html"><spring:message code="menu-about-overview"/></a></li>
+                                   <li><a href="/aboutus.html?lang=${loc}"><spring:message code="menu-about-overview"/></a></li>
                                    <li><a href="#"><spring:message code="menu-about-team"/></a></li>
                                    <li><a href="#"><spring:message code="menu-about-schoolcalendar"/></a></li>
                                </ul> 
                            </li>
                            <li class="drop"><a href="#"><spring:message code="menu-course"/></a>
                                <ul class="dropdown__menu">
-                                   <li><a href="#"><spring:message code="menu-course-funchinese"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-course-chinesesl"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-course-langtraining"/></a></li>
+                                   <li><a href="/course-funchinese.html?lang=${loc}"><spring:message code="menu-course-funchinese"/></a></li>
+                                   <li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-course-chinesesl"/></a></li>
+                                   <li><a href="/course-langtraining.html?lang=${loc}"><spring:message code="menu-course-langtraining"/></a></li>
                                    <li><a href="#"><spring:message code="menu-course-tech"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-course-art"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-course-sport"/></a></li>
+                                   <li><a href="/course-art.html?lang=${loc}"><spring:message code="menu-course-art"/></a></li>
+                                   <li><a href="/course-sport.html?lang=${loc}"><spring:message code="menu-course-sport"/></a></li>
                                </ul>
                            </li>
                            <li class="drop"><a href="#"><spring:message code="menu-activity"/></a>
                                <ul class="dropdown__menu">
-                                   <li><a href="#"><spring:message code="menu-activity-intlcamps"/></a></li>
+                                   <li><a href="/activity-intlcamps.html?lang=${loc}"><spring:message code="menu-activity-intlcamps"/></a></li>
                                    <li><a href="#"><spring:message code="menu-activity-studytour"/></a></li>
                                    <li><a href="#"><spring:message code="menu-activity-localcamps"/></a></li>
                                </ul>
                            </li>
-                           <li class="drop"><a href="shop-grid.html"><spring:message code="menu-show"/></a>
+                           <li class="drop"><a href="/gallery.html"><spring:message code="menu-show"/></a>
                            	   <!-- 
                                <ul class="dropdown__menu">
                                    <li><a href="shop-grid.html">Shop Grid</a></li>
