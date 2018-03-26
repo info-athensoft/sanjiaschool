@@ -364,7 +364,7 @@
 							
 							</p>
 							<div class="wel__btn">
-								<a class="dcare__btn" href="about-us.html"><spring:message code="common-btn-readmore"/></a>
+								<a class="dcare__btn" href="/aboutus.html"><spring:message code="common-btn-readmore"/></a>
 							</div>
 						</div>
 					</div>

@@ -126,6 +126,7 @@
 			<!-- END language -->
 		</div>
 		<!-- Mobile Menu -->
+		<!-- 
         	<div class="mobile-menu d-block d-lg-none">
 	        	<div class="logo">
 	        		<a href="index.html"><img src="${webapp_name}/images/logo/2.png" alt="logo"></a>
@@ -134,6 +135,7 @@
 	        		<i class="fa fa-shopping-basket"></i>
 	        	</a>
 	        </div>
+	     -->
         <!-- Mobile Menu -->
 		</div>
 	</div>

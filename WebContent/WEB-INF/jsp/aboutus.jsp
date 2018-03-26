@@ -84,7 +84,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-about"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-about-overview"/></h2>
                                 <nav class="bradcaump-inner">
                                   <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
@@ -97,8 +97,9 @@
             </div>
         </div>
         <!-- End Bradcaump area -->
-		<!-- Start Choose Us Area -->
-		<section class="dcare__choose__us__area section-padding--lg bg--white">
+        
+		<!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
@@ -159,7 +160,7 @@
 				
 			</div>
 		</section>
-		<!-- End Choose Us Area -->
+		<!-- End Overview Area -->
 		
 
 		<!-- Start Space Area-->

@@ -43,8 +43,10 @@
 			<div class="col-md-4 col-lg-4 col-sm-3 col-12">
 				<div class="jun__header__top__right">
 					<ul class="accounting d-flex justify-content-lg-end justify-content-md-end justify-content-start align-items-center">
+					<!-- 
 						<li><a class="login-trigger font-dark" href="#"><spring:message code="header-login"/></a></li>
 						<li><a class="accountbox-trigger font-dark" href="#"><spring:message code="header-register"/></a></li>
+					 -->	
 						<li><a href="?lang=zh_CN" class="font-dark"><spring:message code="lang-ch"/></a> | <a href="?lang=en_US" class="font-dark"><spring:message code="lang-en"/></a> | <a href="?lang=fr_CA" class="font-dark"><spring:message code="lang-fr"/></a></li>
 					</ul>
 				</div>
