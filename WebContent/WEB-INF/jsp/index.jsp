@@ -160,7 +160,7 @@
 					</div>
 				</div>
 				<div class="row classes__wrap activation__one owl-carousel owl-theme clearfix mt--40">
-					<!-- Start Single Classes -->
+					
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
@@ -186,8 +186,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Single Classes -->
-					<!-- Start Single Classes -->
+					
+					
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
@@ -213,8 +213,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Single Classes -->
-					<!-- Start Single Classes -->
+					
+					 
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
@@ -228,7 +228,7 @@
 									<span>$99</span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html"><spring:message code="class-name-taikwando"/></h4>
+									<h4><a href="#"><spring:message code="class-name-taekwondo"/></a></h4>
 									<ul class="class__time">
 										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
 										<li><spring:message code="class-size"/> : 12</li>
@@ -240,8 +240,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Single Classes -->
-					<!-- Start Single Classes -->
+					
+					
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
@@ -267,8 +267,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Single Classes -->
-					<!-- Start Single Classes -->
+					
+					
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
@@ -294,8 +294,8 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Single Classes -->
-					<!-- Start Single Classes -->
+					
+					
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
@@ -321,7 +321,7 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Single Classes -->
+					
 				</div>
 			</div>
 		</section>

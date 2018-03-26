@@ -74,12 +74,10 @@
 		</header>
 		<!-- //Header -->
 		
-		
-		
 		<!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
             <div class="ht__bradcaump__container">
-            	<img src="${site_img_dir}/bg-png/bar.png" alt="bradcaump images">
+            	<img src="${site_img_dir}/header/header_bar.jpg" alt="bradcaump images">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">
@@ -88,7 +86,7 @@
                                 <nav class="bradcaump-inner">
                                   <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <span class="breadcrumb-item active"><spring:message code="page-title-about"/></span>
+                                  <a href="/aboutus.html?lang=${loc}"><span class="breadcrumb-item active"><spring:message code="page-title-about"/></span></a>
                                 </nav>
                             </div>
                         </div>
@@ -105,7 +103,7 @@
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
 							<h2 class="title__line font-section-title"><spring:message code="aboutus-section-overview-title-1"/></h2>
-							<p></p>
+							<p>校长：安平<br/><br/></p>
 						</div>
 					</div>
 				</div>
@@ -151,7 +149,7 @@
 					
 					<p>“三佳”梦想做中加文化交流的桥梁，而这扇大门已经向包括“三佳”全体师生在内的所有家长与学生打开，我们相信，梦想会使我们和孩子们精神上更为富足，从而使我们更愉悦自信。<br/></p>
 					 
-					<p><br/>校长：安平<br/> </p>
+					
 					</div>
 					<div class="col-lg-2">
 					</div>

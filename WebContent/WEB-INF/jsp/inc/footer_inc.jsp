@@ -22,7 +22,7 @@
 <!-- END i18n -->
 
 <footer id="footer" class="footer-area">
-	<div class="footer__wrapper poss-relative ftr__btm__image section-padding--lg--top section-padding--lg--bottom bg--white">
+	<div class="footer__wrapper poss-relative ftr__btm__image section-padding--lg--top section-padding--sm--bottom bg--white bg-image--1">
 		<div class="container">
 			<div class="row">
 				<!-- Start Single Widget -->
@@ -103,9 +103,7 @@
 					</div>
 				</div>
 				<!-- End Single Widget -->
-				
-				
-				
+					
 				<!-- Start Single Widget -->
 				<div class="col-lg-3 col-md-6 col-sm-12 sm-mt-40">
 					<div class="footer__widget">
@@ -168,8 +166,12 @@
 				</div>
 				<!-- End Single Widget -->
 			</div>
+		
+			
+		
 		</div>
 	</div>
+	
 	<div class="copyright">
 		<div class="container">
 			<div class="row align-items-center copyright__wrapper">
@@ -192,4 +194,5 @@
 			</div>
 		</div>
 	</div>
+	
 </footer>

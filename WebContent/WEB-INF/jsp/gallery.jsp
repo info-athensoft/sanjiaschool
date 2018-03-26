@@ -79,7 +79,7 @@
 		<!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
             <div class="ht__bradcaump__container">
-            	<img src="${site_img_dir}/bg-png/bar.png" alt="bradcaump images">
+            	<img src="${site_img_dir}/header/header_bar.jpg" alt="bradcaump images">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12">

@@ -27,7 +27,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Sanjia School - Fun Chinese</title>
+	<title>Sanjia School - Technology Courses</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicons -->
@@ -84,11 +84,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="course-chinesesl-title-1"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="course-tech-title-1"/></h2>
                                 <nav class="bradcaump-inner">
                                   <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <span class="breadcrumb-item active"><spring:message code="page-title-course"/></span>
+                                  <span class="breadcrumb-item active"><spring:message code="menu-course"/></span>
                                 </nav>
                             </div>
                         </div>
@@ -97,28 +97,89 @@
             </div>
         </div>
         <!-- End Bradcaump area -->
+        
+        
+        <!-- Start Space Area-->
+		<section class="section-padding--lg"><p>&nbsp;</p></section>
+		<!-- End Space Area-->
+        
+        <!-- Start Our Service Area -->
+		<section class="junior__service bg-image--1 section-padding--bottom1 section--padding--sm--top">
+			<div class="container">
+				<div class="row">
+					<!-- Start Single Service -->
+					<div class="col-lg-2 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
+						
+					</div>
+					<!-- End Single Service -->
+				
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="class-name-robotics"/></a></h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="service.html"><spring:message code="class-name-math"/></a></h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+					<!-- Start Single Service -->
+					<div class="col-lg-2 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
+						
+					</div>
+					<!-- End Single Service -->
+				</div>
+			</div>
+		</section>
+		<!-- End Our Service Area -->
+        
 		<!-- Start Choose Us Area -->
 		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
-				<!-- 
+				<!--
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="course-chinesesl-title-1"/></h2>
+							<h2 class="title__line font-section-title"><spring:message code="course-art-title-1"/></h2>
 							<p></p>
 						</div>
 					</div>
 				</div>
-				 -->
+				  -->
 				
 				<div class="row mt--20">
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-chinesesl-content-1"/><br/><br/></p>
-					<p><spring:message code="course-chinesesl-content-2"/><br/><br/></p>
-					<p><spring:message code="course-chinesesl-content-3"/><br/><br/></p>
-					<p><spring:message code="course-chinesesl-content-4"/><br/></p>
+					<p><spring:message code="course-art-content-1"/><br/><br/></p>
+					<p><spring:message code="course-art-content-2"/><br/><br/></p>
+					<p><spring:message code="course-art-content-3"/><br/><br/></p>
+					<p><spring:message code="course-art-content-4"/><br/><br/></p>
+					<p><spring:message code="course-art-content-5"/><br/><br/></p>
+					
 					</div>
 					<div class="col-lg-2">
 					</div>
@@ -131,13 +192,13 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/2/1.jpg" alt="gallery images">
+										<img src="${site_img_dir}/program/5/1.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/1.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/program/5/1.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
@@ -150,13 +211,13 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/2/2.jpg" alt="gallery images">
+										<img src="${site_img_dir}/program/5/2.jpg"" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/2.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/program/5/2.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
@@ -169,13 +230,13 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/2/3.jpg" alt="gallery images">
+										<img src="${site_img_dir}/program/5/3.jpg"" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/3.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/program/5/3.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
@@ -188,13 +249,13 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/2/4.jpg" alt="gallery images">
+										<img src="${site_img_dir}/program/5/4.jpg"" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/4.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/program/5/4.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
@@ -209,8 +270,6 @@
 		</section>
 		<!-- End Choose Us Area -->
 		
-		
-
 		<!-- Start Space Area-->
 		<section class="section-padding--lg--bottom"></section>
 		<!-- End Space Area-->
@@ -219,8 +278,6 @@
 		<jsp:include page="${inc_dir}/footer_inc.jsp"/>
 		<!-- //Footer Area -->
 		
-		
-
         <!-- Register Form -->
         <div class="accountbox-wrapper">
             <div class="accountbox">

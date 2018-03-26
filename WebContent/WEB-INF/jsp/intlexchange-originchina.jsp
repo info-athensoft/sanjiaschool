@@ -27,7 +27,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Sanjia School - Fun Chinese</title>
+	<title>Sanjia School - Origin China</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicons -->
@@ -84,11 +84,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="course-chinesesl-title-1"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-intlexchange-originchina"/></h2>
                                 <nav class="bradcaump-inner">
                                   <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <span class="breadcrumb-item active"><spring:message code="page-title-course"/></span>
+                                  <span class="breadcrumb-item active"><spring:message code="page-title-intlexchange"/></span>
                                 </nav>
                             </div>
                         </div>
@@ -97,28 +97,105 @@
             </div>
         </div>
         <!-- End Bradcaump area -->
+        
+        <!-- Start Space Area-->
+		<section class="section-padding--lg"><p>&nbsp;</p></section>
+		<!-- End Space Area-->
+        
+        
+        <!-- Start Our Service Area -->
+		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
+			<div class="container">
+				<div class="row">
+					<!-- Start Single Service -->
+					<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="camps-intl-tech"/></a></h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					<!-- Start Single Service -->
+					<div class="col-lg-3 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="service.html"><spring:message code="camps-intl-art"/></a></h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					<!-- Start Single Service -->
+					<div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
+						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/3.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="service.html"><spring:message code="camps-intl-sport"/></a></h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					<!-- Start Single Service -->
+					<div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
+						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/3.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="service.html"><spring:message code="camps-intl-familyenglish"/></a></h6>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+				</div>
+			</div>
+		</section>
+		<!-- End Our Service Area -->
+        
+        
+        
+        
 		<!-- Start Choose Us Area -->
 		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
-				<!-- 
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="course-chinesesl-title-1"/></h2>
+							<h2 class="title__line font-section-title"><spring:message code="activity-intlcamps-title-1"/></h2>
 							<p></p>
 						</div>
 					</div>
 				</div>
-				 -->
+				
 				
 				<div class="row mt--20">
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-chinesesl-content-1"/><br/><br/></p>
-					<p><spring:message code="course-chinesesl-content-2"/><br/><br/></p>
-					<p><spring:message code="course-chinesesl-content-3"/><br/><br/></p>
-					<p><spring:message code="course-chinesesl-content-4"/><br/></p>
 					</div>
 					<div class="col-lg-2">
 					</div>
@@ -127,80 +204,26 @@
 				<div class="container-fluid">
 					<div class="row galler__wrap">
 						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+						<c:forEach var="picNum" step="1" begin="1" end="8">
+							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/2/1.jpg" alt="gallery images">
+										<img src="${site_img_dir}/activity/1/${picNum}.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/1.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/activity/1-big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>
 							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/2/2.jpg" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/2.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/2/3.jpg" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/3.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/2/4.jpg" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/2/4.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
+						</div>
+						</c:forEach>
+							
 						<!-- End Single Gallery -->
 					</div>	
 				</div>

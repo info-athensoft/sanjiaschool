@@ -36,41 +36,48 @@
 					<nav class="mainmenu__nav">
                        <ul class="mainmenu">
                            <li class="drop"><a href="/index.html"><spring:message code="menu-home"/></a>
-                               <!-- 
                                <ul class="dropdown__menu">
-                                   <li><a href="index.html">home version 01</a></li>
-                                   <li><a href="index-2.html">home version 02</a></li>
-                                   <li><a href="index-3.html">home version 03</a></li>
-                                   <li><a href="index-4.html">home version 04</a></li>
-                                   <li><a href="index-5.html">home version 05</a></li>
-                               </ul> -->
+                                   <li><a href="#"><spring:message code="menu-about-schoolcalendar"/></a></li>
+                               </ul>
                            </li>
-                           <li class="drop"><a href="/aboutus.html"><spring:message code="menu-about"/></a>
+                           <li class="drop"><a href="/aboutus.html?lang=${loc}"><spring:message code="menu-about"/></a>
                            	    
                                <ul class="dropdown__menu">
                                    <li><a href="/aboutus.html?lang=${loc}"><spring:message code="menu-about-overview"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-about-team"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-about-schoolcalendar"/></a></li>
+                                   <li><a href="/aboutus-history.html?lang=${loc}"><spring:message code="menu-about-history"/></a></li>
+                                   <li><a href="/aboutus-team.html?lang=${loc}"><spring:message code="menu-about-team"/></a></li>
+                                   <li><a href="/aboutus-partner.html?lang=${loc}"><spring:message code="menu-about-partner"/></a></li>
+                                   <li><a href="/gallery.html"><spring:message code="menu-show"/></a></li>
                                </ul> 
+                           </li>
+                           <li class="drop"><a href="#"><spring:message code="menu-intlexchange"/></a>
+                               <ul class="dropdown__menu">
+                                   <li><a href="/intlexchange-intlcamps.html?lang=${loc}"><spring:message code="menu-intlexchange-intlcamps"/></a></li>
+                                   <li><a href="/intlexchange-originchina.html?lang=${loc}"><spring:message code="menu-intlexchange-originchina"/></a></li>
+                                   <li><a href="/intlexchange-localcamps.html?lang=${loc}"><spring:message code="menu-intlexchange-localcamps"/></a></li>
+                                   <li><a href="/intlexchange-intlvisit.html?lang=${loc}"><spring:message code="menu-intlexchange-intlvisit"/></a></li>
+                               </ul>
                            </li>
                            <li class="drop"><a href="#"><spring:message code="menu-course"/></a>
                                <ul class="dropdown__menu">
+                               	   <li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-course-chinesesl"/></a></li>
                                    <li><a href="/course-funchinese.html?lang=${loc}"><spring:message code="menu-course-funchinese"/></a></li>
-                                   <li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-course-chinesesl"/></a></li>
+                                   <li><a href="/course-tech.html?lang=${loc}"><spring:message code="menu-course-tech"/></a></li>
                                    <li><a href="/course-langtraining.html?lang=${loc}"><spring:message code="menu-course-langtraining"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-course-tech"/></a></li>
                                    <li><a href="/course-art.html?lang=${loc}"><spring:message code="menu-course-art"/></a></li>
                                    <li><a href="/course-sport.html?lang=${loc}"><spring:message code="menu-course-sport"/></a></li>
                                </ul>
                            </li>
-                           <li class="drop"><a href="#"><spring:message code="menu-activity"/></a>
+                           <li class="drop"><a href="#"><spring:message code="menu-adultprog"/></a>
                                <ul class="dropdown__menu">
-                                   <li><a href="/activity-intlcamps.html?lang=${loc}"><spring:message code="menu-activity-intlcamps"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-activity-studytour"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-activity-localcamps"/></a></li>
+                                   <li><a href="/course-funchinese.html?lang=${loc}"><spring:message code="menu-adultprog-smallbiz"/></a></li>
+                                   <li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-adultprog-salerep"/></a></li>
+                                   <li><a href="/course-tech.html?lang=${loc}"><spring:message code="menu-adultprog-salerep2"/></a></li>
+                                   <li><a href="/course-langtraining.html?lang=${loc}"><spring:message code="menu-adultprog-industrydesign"/></a></li>
                                </ul>
                            </li>
-                           <li class="drop"><a href="/gallery.html"><spring:message code="menu-show"/></a>
+                           
+                           <li class="drop"><a href="/oversea.html?lang=${loc}"><spring:message code="menu-oversea"/></a>
                            	   <!-- 
                                <ul class="dropdown__menu">
                                    <li><a href="shop-grid.html">Shop Grid</a></li>
@@ -81,18 +88,13 @@
                                </ul>
                                 -->
                            </li>
-                           <!-- 
-                           <li class="drop"><a href="blog-grid.html">Blog</a>
+                            
+                           <li class="drop"><a href="/contactus.html"><spring:message code="menu-contactus"/></a>
                                <ul class="dropdown__menu">
-                                   <li><a href="blog-grid.html">Blog Grid</a></li>
-                                   <li><a href="blog-list.html">Blog List</a></li>
-                                   <li><a href="blog-list-right-sidebar.html">Blog List RightSidebar</a></li>
-                                   <li><a href="blog-list-left-sidebar.html">Blog List LeftSidebar</a></li>
-                                   <li><a href="blog-details.html">Blog Details</a></li>
+                                   <li class="drop"><a href="#"><spring:message code="menu-career"/></a></li>
                                </ul>
                            </li>
-                            -->
-                           <li><a href="/contactus.html"><spring:message code="menu-contactus"/></a></li>
+                            
                        </ul>
                    </nav>
 				</div>
@@ -118,7 +120,7 @@
 						<li class="wechat"><a href="/contactus.html?lang=${loc}"><i class="fa fa-wechat"></i></a></li>
 						<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
 						<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
+						<!-- <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>  -->
 					</ul>
 				</div>
 			</div>
