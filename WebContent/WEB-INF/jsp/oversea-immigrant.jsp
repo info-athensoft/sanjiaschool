@@ -27,7 +27,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Sanjia School - About us</title>
+	<title>Sanjia School - Over Sea</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicons -->
@@ -74,6 +74,8 @@
 		</header>
 		<!-- //Header -->
 		
+		
+		
 		<!-- Start Bradcaump area -->
         <div class="ht__bradcaump__area">
             <div class="ht__bradcaump__container">
@@ -82,11 +84,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-about-history"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-oversea-immigrant"/></h2>
                                 <nav class="bradcaump-inner">
                                   <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <a href="/aboutus-overview.html?lang=${loc}"><span class="breadcrumb-item active"><spring:message code="page-title-about"/></span></a>
+                                  <a class="breadcrumb-item" href="/oversea.html?lang=${loc}"><span class="breadcrumb-item active"><spring:message code="menu-oversea"/></span></a>
                                 </nav>
                             </div>
                         </div>
@@ -96,28 +98,20 @@
         </div>
         <!-- End Bradcaump area -->
         
-		<!-- Start Overview Area -->
+        
+        
+        <!-- Start Overview Area -->
 		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="aboutus-section-history-title-1"/></h2>
-							<p><spring:message code="aboutus-section-history-title-2"/><br/><br/></p>
+							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-title-2"/></h2>
+							<p><br/><br/></p>
 						</div>
 					</div>
 				</div>
 				
-				
-				<div class="row text-center">
-					<div class="col-lg-2">
-					</div>	
-					<div class="col-lg-8 col-sm-8 col-md-8">
-						<img src="${site_img_dir}/about/1.jpg" width="80%"/>
-					</div>
-					<div class="col-lg-2">
-					</div>
-				</div>
 				
 				<div class="row mt--20">
 					<div class="col-lg-2">
@@ -125,19 +119,27 @@
 					<div class="col-lg-8">
 					<p><br/></p>
 					
-					<p><spring:message code="aboutus-section-history-content-2"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-3"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-4"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-5"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-6"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-7"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-8"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-9"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-10"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-11"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-12"/><br/><br/></p>
- 
+					<h4><spring:message code="oversea-immigrant-service1-title"/></h4>
+										
+					<p><br/></p>
+					<p><br/></p>
 					
+					<h4><spring:message code="oversea-immigrant-service2-title"/></h4>
+					
+					<p><br/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="oversea-immigrant-service3-title"/></h4>
+					
+					<p><br/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="oversea-immigrant-service4-title"/></h4>
+					
+					<p><br/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="oversea-immigrant-service5-title"/></h4>
 					
 					</div>
 					<div class="col-lg-2">
@@ -148,10 +150,11 @@
 			</div>
 		</section>
 		<!-- End Overview Area -->
+        
+        		
 		
-
 		<!-- Start Space Area-->
-		<section class="section-padding--lg--bottom"></section>
+		<section class="section-padding--lg"><p><br/><br/></p></section>
 		<!-- End Space Area-->
 		
 		<!-- Footer Area -->

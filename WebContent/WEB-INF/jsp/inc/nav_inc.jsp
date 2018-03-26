@@ -81,8 +81,8 @@
                            	  
                                <ul class="dropdown__menu">
                                    <li><a href="/oversea.html?lang=${loc}"><spring:message code="menu-oversea-home"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-oversea-intlstu"/></a></li>
-                                   <li><a href="#"><spring:message code="menu-oversea-immigrant"/></a></li>
+                                   <li><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="menu-oversea-intlstu"/></a></li>
+                                   <li><a href="/oversea-immigrant.html?lang=${loc}"><spring:message code="menu-oversea-immigrant"/></a></li>
                                </ul>
                               
                            </li>

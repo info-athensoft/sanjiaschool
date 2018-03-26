@@ -98,14 +98,22 @@
         </div>
         <!-- End Bradcaump area -->
         
-        <!-- Start Space Area-->
-		<section class="section-padding--lg"></section>
+        				
+		<!-- Start Space Area-->
+		<section class="section-padding--lg"><p>&nbsp;</p></section>
 		<!-- End Space Area-->
         
-        
         <!-- Start Our Service Area -->
-		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
+		<section class="junior__service bg-image--1 section-padding--bottom">
 			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="oversea-intlstu-title-1"/></h2>
+							<p><br/><br/><br/></p>
+						</div>
+					</div>
+				</div>
 				<div class="row">
 					<!-- Start Single Service -->
 					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
@@ -114,10 +122,10 @@
 								<img src="/images/shape/sm-icon/1.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="#"><spring:message code="oversea-intlstu-kid"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-kid"/></a></h6>
+								<p> </p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
@@ -130,10 +138,10 @@
 								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="#"><spring:message code="oversea-intlstu-highschool"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-highschool"/></a></h6>
+								<p></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
@@ -146,16 +154,112 @@
 								<img src="/images/shape/sm-icon/3.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="#"><spring:message code="oversea-intlstu-college"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-college"/></a></h6>
+								<p></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- End Single Service -->
 					
+				</div>
+			</div>
+		</section>
+		<!-- End Our Service Area -->
+		
+        
+        <!-- Start Our Service Area -->
+		<section class="junior__service bg-image--1 section-padding--bottom">
+			<div class="container">
+				
+				<div class="row">
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-university"/></a></h6>
+								<p></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-support"/></a></h6>
+								<p></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+					
+				</div>
+			</div>
+		</section>
+		<!-- End Our Service Area -->
+		
+		
+        
+        <!-- Start Our Service Area -->
+		<section class="junior__service bg-image--1 section-padding--bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-title-1"/></h2>
+							<p><br/><br/><br/></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="/oversea-immigrant.html?lang=${loc}"><spring:message code="oversea-immigrant-skilled"/></a></h6>
+								<p></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="/oversea-immigrant.html?lang=${loc}"><spring:message code="oversea-immigrant-startup"/></a></h6>
+								<p></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
 					<!-- Start Single Service -->
 					<div class="col-lg-4 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
 						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
@@ -163,24 +267,69 @@
 								<img src="/images/shape/sm-icon/3.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="#"><spring:message code="oversea-intlstu-university"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="/oversea-immigrant.html?lang=${loc}"><spring:message code="oversea-immigrant-invest"/></a></h6>
+								<p></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- End Single Service -->
+					
 				</div>
 			</div>
 		</section>
 		<!-- End Our Service Area -->
-        
-       
-
+		
+		
+		<!-- Start Our Service Area -->
+		<section class="junior__service bg-image--1 section-padding--bottom">
+			<div class="container">
+				
+				<div class="row">
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="oversea-immigrant-stu2imm"/></a></h6>
+								<p></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="service.html"><spring:message code="oversea-immigrant-peq"/></a></h6>
+								<p></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+					
+				</div>
+			</div>
+		</section>
+		<!-- End Our Service Area -->
+		
+		
 		<!-- Start Space Area-->
-		<section class="section-padding--lg--bottom"></section>
+		<section class="section-padding--lg"><p><br/><br/></p></section>
 		<!-- End Space Area-->
 		
 		<!-- Footer Area -->

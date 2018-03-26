@@ -38,9 +38,5 @@ public class GlobalController {
 	
 	
 
-	@RequestMapping("/oversea.html")
-	public String gotoOversea(){
-		return "oversea";
-	}
 	
 }
