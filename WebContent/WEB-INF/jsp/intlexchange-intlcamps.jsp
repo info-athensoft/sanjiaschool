@@ -115,7 +115,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="#"><spring:message code="camps-intl-tech"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -131,7 +131,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="service.html"><spring:message code="camps-intl-art"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -147,7 +147,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="service.html"><spring:message code="camps-intl-sport"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -163,7 +163,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="service.html"><spring:message code="camps-intl-familyenglish"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -175,7 +175,6 @@
 			</div>
 		</section>
 		<!-- End Our Service Area -->
-        
         
         
         

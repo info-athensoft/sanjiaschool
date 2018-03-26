@@ -108,14 +108,14 @@
 			<div class="container">
 				<div class="row">
 					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 						<div class="service bg--white border__color wow fadeInUp">
 							<div class="service__icon">
 								<img src="/images/shape/sm-icon/1.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="#"><spring:message code="camps-intl-tech"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="camps-visit-mcgill"/></a></h6>
+								<p><spring:message code="camps-visit-mcgill-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#">Read More</a>
 								</div>
@@ -124,14 +124,14 @@
 					</div>
 					<!-- End Single Service -->
 					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12 xs-mt-60">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
 						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="service__icon">
 								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="camps-intl-art"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="camps-visit-kongzi"/></a></h6>
+								<p><spring:message code="camps-visit-kongzi-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#">Read More</a>
 								</div>
@@ -140,14 +140,14 @@
 					</div>
 					<!-- End Single Service -->
 					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
 						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
 							<div class="service__icon">
 								<img src="/images/shape/sm-icon/3.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="camps-intl-sport"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="camps-visit-bmodel"/></a></h6>
+								<p><spring:message code="camps-visit-bmodel-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#">Read More</a>
 								</div>
@@ -155,26 +155,113 @@
 						</div>
 					</div>
 					<!-- End Single Service -->
-					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
-						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/3.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="camps-intl-familyenglish"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="#">Read More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
+					
 				</div>
 			</div>
 		</section>
 		<!-- End Our Service Area -->
+        
+        
+        
+          
+        <!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="intlexchange-intlvisit-title-1"/></h2>
+							<p><br/><br/></p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-1-1"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					<p><spring:message code="intlexchange-intlvisit-content-1-2"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-1-3"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-1-4"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<!-- End McGill Area -->
+		
+		
+		<!-- Start Kongzi Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="intlexchange-intlvisit-title-2"/></h2>
+							<p><br/><br/></p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-2-1"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					<p><spring:message code="intlexchange-intlvisit-content-2-2"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-2-3"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-2-4"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<!-- End Kongzi Area -->
+        
+        
+        
+        
         
         
         
