@@ -8,7 +8,7 @@ public class AdultprogController {
 	
 	@RequestMapping("/adultprog.html")
 	public String gotoAdultprog(){
-		return "oversea";
+		return "adultprog";
 	}
 	
 	@RequestMapping("/adultprog-smallbiz.html")

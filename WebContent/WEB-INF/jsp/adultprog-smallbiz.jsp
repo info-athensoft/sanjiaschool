@@ -27,7 +27,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Sanjia School - Training</title>
+	<title>Sanjia School - Over Sea</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicons -->
@@ -84,11 +84,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-adultprog"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-adultprog-smallbiz"/></h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
+                                  <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <span class="breadcrumb-item active"><spring:message code="menu-adultprog"/></span>
+                                  <a class="breadcrumb-item" href="/adultprog.html?lang=${loc}"><span class="breadcrumb-item active"><spring:message code="page-title-adultprog"/></span></a>
                                 </nav>
                             </div>
                         </div>
@@ -98,98 +98,107 @@
         </div>
         <!-- End Bradcaump area -->
         
-        				
-		<!-- Start Space Area-->
-		<section class="section-padding--lg"><p>&nbsp;</p></section>
-		<!-- End Space Area-->
         
-        <!-- Start Our Service Area -->
-		<section class="junior__service bg-image--1 section-padding--bottom">
+        
+        <!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="adultprog-title-1"/></h2>
-							<p><br/><br/><br/></p>
+							<h2 class="title__line font-section-title"><spring:message code="adultprog-smallbiz-title"/></h2>
+							<p><br/><br/></p>
 						</div>
 					</div>
 				</div>
-				<div class="row">
-					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-						<div class="service bg--white border__color wow fadeInUp">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/1.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/adultprog-smallbiz.html?lang=${loc}"><spring:message code="adultprog-name-smallbiz"/></a></h6>
-								<p> </p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/adultprog-smallbiz.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
 					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12 xs-mt-60">
-						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/2.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/adultprog-salerep.html?lang=${loc}"><spring:message code="adultprog-name-salerep"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/adultprog-salerep.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
-						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/3.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/adultprog-salepro.html?lang=${loc}"><spring:message code="adultprog-name-salepro"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/adultprog-salepro.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
+					<div class="col-lg-8">
+					<p><br/></p>
 					
-					<!-- Start Single Service -->
-					<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-						<div class="service bg--white border__color wow fadeInUp">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/1.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/adultprog-industrydesign.html?lang=${loc}"><spring:message code="adultprog-name-industrydesign"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/adultprog-industrydesign.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
+					<h4><spring:message code="adultprog-smallbiz-head-1"/></h4>
+					<p><br/></p>
+					<p><spring:message code="adultprog-smallbiz-content-1"/></p>
+					
+					<p><br/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="adultprog-smallbiz-head-2"/></h4>
+					<p><br/></p>
+					<p><spring:message code="adultprog-smallbiz-content-2"/></p>
+					
+					<p><br/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="adultprog-smallbiz-head-3"/></h4>
+					<p><br/></p>
+					<ol>
+						<li><spring:message code="adultprog-smallbiz-content-3-1"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-3-2"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-3-3"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-3-4"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-3-5"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-3-6"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-3-7"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-3-8"/></li>
+					</ol>
+					
+					<p><br/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="adultprog-smallbiz-head-4"/></h4>
+					<p><br/></p>
+					<h5><spring:message code="adultprog-smallbiz-head-4-1"/></h5>
+					<ul>
+						<li><spring:message code="adultprog-smallbiz-content-4-1-1"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-4-1-2"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-4-1-3"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-4-1-4"/></li>
+					</ul>
+					
+					<p><br/></p>
+					<h5><spring:message code="adultprog-smallbiz-head-4-2"/></h5>
+					<ul>
+						<li><spring:message code="adultprog-smallbiz-content-4-2-1"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-4-2-2"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-4-2-3"/></li>
+					</ul>
+					
+					<p><br/></p>
+					<h5><spring:message code="adultprog-smallbiz-head-4-3"/></h5>
+					<ul>
+						<li><spring:message code="adultprog-smallbiz-content-4-3-1"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-4-3-2"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-4-3-3"/></li>
+					</ul>
+					
+					
+					<p><br/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="adultprog-smallbiz-head-5"/></h4>
+					<p><br/></p>
+					<ul>
+						<li><spring:message code="adultprog-smallbiz-content-5-1"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-5-2"/></li>
+						<li><spring:message code="adultprog-smallbiz-content-5-3"/></li>
+					</ul>
+					
+					
 					</div>
-					<!-- End Single Service -->
+					<div class="col-lg-2">
+					</div>
 					
 				</div>
+				
 			</div>
 		</section>
-		<!-- End Our Service Area -->
-		
-      
-		
-		
-		
+		<!-- End Overview Area -->
+        
+        		
 		
 		<!-- Start Space Area-->
 		<section class="section-padding--lg"><p><br/><br/></p></section>

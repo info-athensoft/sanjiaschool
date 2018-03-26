@@ -70,7 +70,7 @@
                            </li>
                            <li class="drop"><a href="/adultprog.html?lang=${loc}"><spring:message code="menu-adultprog"/></a>
                                <ul class="dropdown__menu">
-                                   <li><a href="/adultprog.html?lang=${loc}"><spring:message code="menu-adultprog"/></a></li>
+                                   <li><a href="/adultprog.html?lang=${loc}"><spring:message code="menu-adultprog-home"/></a></li>
                                    <li><a href="/adultprog-smallbiz.html?lang=${loc}"><spring:message code="menu-adultprog-smallbiz"/></a></li>
                                    <li><a href="/adultprog-salerep.html?lang=${loc}"><spring:message code="menu-adultprog-salerep"/></a></li>
                                    <li><a href="/adultprog-salepro.html?lang=${loc}"><spring:message code="menu-adultprog-salepro"/></a></li>
