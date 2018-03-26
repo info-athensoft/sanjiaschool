@@ -70,23 +70,21 @@
                            </li>
                            <li class="drop"><a href="#"><spring:message code="menu-adultprog"/></a>
                                <ul class="dropdown__menu">
-                                   <li><a href="/course-funchinese.html?lang=${loc}"><spring:message code="menu-adultprog-smallbiz"/></a></li>
-                                   <li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-adultprog-salerep"/></a></li>
-                                   <li><a href="/course-tech.html?lang=${loc}"><spring:message code="menu-adultprog-salerep2"/></a></li>
-                                   <li><a href="/course-langtraining.html?lang=${loc}"><spring:message code="menu-adultprog-industrydesign"/></a></li>
+                                   <li><a href="/adultprog-smallbiz.html?lang=${loc}"><spring:message code="menu-adultprog-smallbiz"/></a></li>
+                                   <li><a href="/adultprog-salerep.html?lang=${loc}"><spring:message code="menu-adultprog-salerep"/></a></li>
+                                   <li><a href="/adultprog-salepro.html?lang=${loc}"><spring:message code="menu-adultprog-salepro"/></a></li>
+                                   <li><a href="/adultprog-industrydesign.html?lang=${loc}"><spring:message code="menu-adultprog-industrydesign"/></a></li>
                                </ul>
                            </li>
                            
                            <li class="drop"><a href="/oversea.html?lang=${loc}"><spring:message code="menu-oversea"/></a>
-                           	   <!-- 
+                           	  
                                <ul class="dropdown__menu">
-                                   <li><a href="shop-grid.html">Shop Grid</a></li>
-                                   <li><a href="shop-grid-left-sidebar.html">Shop Grid Left Sidebar</a></li>
-                                   <li><a href="shop-grid-right-sidebar.html">Shop Grid right Sidebar</a></li>
-                                   <li><a href="shop-single.html">Shop Single</a></li>
-                                   <li><a href="shop-single-right-sidebar.html">Shop Single Sidebar</a></li>
+                                   <li><a href="/oversea.html?lang=${loc}"><spring:message code="menu-oversea-home"/></a></li>
+                                   <li><a href="#"><spring:message code="menu-oversea-intlstu"/></a></li>
+                                   <li><a href="#"><spring:message code="menu-oversea-immigrant"/></a></li>
                                </ul>
-                                -->
+                              
                            </li>
                             
                            <li class="drop"><a href="/contactus.html"><spring:message code="menu-contactus"/></a>
