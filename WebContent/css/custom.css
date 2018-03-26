@@ -34,3 +34,10 @@ div{
 	font-family: "Roboto", "Microsoft YaHei", sans-serif ! important;
 	font-weight: 500 ! Important;
 }
+
+.text-center{
+	text-align:center;
+}
+.text-left{
+	text-align:left;
+}

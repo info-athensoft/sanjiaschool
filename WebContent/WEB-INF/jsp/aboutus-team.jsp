@@ -82,7 +82,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-about-history"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-about-team"/></h2>
                                 <nav class="bradcaump-inner">
                                   <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
@@ -102,52 +102,176 @@
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="aboutus-section-history-title-1"/></h2>
-							<p>校长：安平<br/><br/></p>
+							<h2 class="title__line font-section-title"><spring:message code="aboutus-section-team-title-1"/></h2>
+							<p><br/><br/></p>
 						</div>
 					</div>
 				</div>
 				
-				
 				<div class="row text-center">
 					<div class="col-lg-2">
 					</div>	
-					<div class="col-lg-8 col-sm-8 col-md-8">
-						<img src="${site_img_dir}/about/1.jpg" width="80%"/>
+					<div class="col-lg-2 col-sm-12 col-md-8">
+						<img src="${site_img_dir}/team/expert1.jpg" alt="team images">
+					</div>
+					<div class="col-lg-6 col-sm-12 col-md-8">
+						<div class="text-left">
+							<h4><spring:message code="team-expert1-title"/>  &nbsp;&nbsp;&nbsp;&nbsp; <spring:message code="team-expert1-name"/></h4>
+							<p>&nbsp;</p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-1"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-2"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-3"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-4"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-5"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-6"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-7"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-8"/></p>
+						</div>
 					</div>
 					<div class="col-lg-2">
 					</div>
 				</div>
 				
-				<div class="row mt--20">
+				<!-- Start Space Area-->
+				<section class="section-padding--xsm"><p><br/><br/></p></section>
+				<!-- End Space Area-->
+				
+				<div class="row text-center">
+					<div class="col-lg-2">
+					</div>	
+					<div class="col-lg-2 col-sm-12 col-md-8">
+						<img src="${site_img_dir}/team/expert2.jpg" alt="team images">
+					</div>
+					<div class="col-lg-6 col-sm-12 col-md-8">
+						<div class="text-left">
+							<h4><spring:message code="team-expert2-title"/>  &nbsp;&nbsp;&nbsp;&nbsp; <spring:message code="team-expert2-name"/></h4>
+							<p>&nbsp;</p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-1"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-2"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-3"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-4"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert1-item-5"/></p>
+						</div>
+					</div>
 					<div class="col-lg-2">
 					</div>
-					<div class="col-lg-8">
-					<p><br/></p>
-					
-					<p><spring:message code="aboutus-section-history-content-2"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-3"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-4"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-5"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-6"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-7"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-8"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-9"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-10"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-11"/><br/><br/></p>
-					<p><spring:message code="aboutus-section-history-content-12"/><br/><br/></p>
- 
-					
-					
+				</div>
+				
+				<!-- Start Space Area-->
+				<section class="section-padding--xsm"><p><br/><br/></p></section>
+				<!-- End Space Area-->
+				
+				<div class="row text-center">
+					<div class="col-lg-2">
+					</div>	
+					<div class="col-lg-2 col-sm-12 col-md-8">
+						<img src="${site_img_dir}/team/expert3.jpg" alt="team images">
+					</div>
+					<div class="col-lg-6 col-sm-12 col-md-8">
+						<div class="text-left">
+							<h4><spring:message code="team-expert3-title"/>  &nbsp;&nbsp;&nbsp;&nbsp; <spring:message code="team-expert3-name"/></h4>
+							<p>&nbsp;</p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert3-item-1"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert3-item-2"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert3-item-3"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert3-item-4"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert3-item-5"/></p>
+						</div>
 					</div>
 					<div class="col-lg-2">
 					</div>
-					
+				</div>
+				
+				<!-- Start Space Area-->
+				<section class="section-padding--xsm"><p><br/><br/></p></section>
+				<!-- End Space Area-->
+				
+				<div class="row text-center">
+					<div class="col-lg-2">
+					</div>	
+					<div class="col-lg-2 col-sm-12 col-md-8">
+						<img src="${site_img_dir}/team/expert4.jpg" alt="team images">
+					</div>
+					<div class="col-lg-6 col-sm-12 col-md-8">
+						<div class="text-left">
+							<h4><spring:message code="team-expert4-title"/>  &nbsp;&nbsp;&nbsp;&nbsp; <spring:message code="team-expert4-name"/></h4>
+							<p>&nbsp;</p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert4-item-1"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert4-item-2"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert4-item-3"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert4-item-4"/></p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+					</div>
+				</div>
+				
+				<!-- Start Space Area-->
+				<section class="section-padding--xsm"><p><br/><br/></p></section>
+				<!-- End Space Area-->
+				
+				<div class="row text-center">
+					<div class="col-lg-2">
+					</div>	
+					<div class="col-lg-2 col-sm-12 col-md-8">
+						<img src="${site_img_dir}/team/expert5.jpg" alt="team images">
+					</div>
+					<div class="col-lg-6 col-sm-12 col-md-8">
+						<div class="text-left">
+							<h4><spring:message code="team-expert5-title"/>  &nbsp;&nbsp;&nbsp;&nbsp; <spring:message code="team-expert5-name"/></h4>
+							<p>&nbsp;</p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-1"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-2"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-3"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-4"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-5"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-6"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-7"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-8"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-9"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-10"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert5-item-11"/></p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+					</div>
+				</div>
+				
+				<!-- Start Space Area-->
+				<section class="section-padding--xsm"><p><br/><br/></p></section>
+				<!-- End Space Area-->
+				
+				<div class="row text-center">
+					<div class="col-lg-2">
+					</div>	
+					<div class="col-lg-2 col-sm-12 col-md-8">
+						<img src="${site_img_dir}/team/expert6.jpg" alt="team images">
+					</div>
+					<div class="col-lg-6 col-sm-12 col-md-8">
+						<div class="text-left">
+							<h4><spring:message code="team-expert6-title"/>  &nbsp;&nbsp;&nbsp;&nbsp; <spring:message code="team-expert6-name"/></h4>
+							<p>&nbsp;</p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-1"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-2"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-3"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-4"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-5"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-6"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-7"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-8"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-9"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-10"/></p>
+							<p><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;&nbsp;<spring:message code="team-expert6-item-11"/></p>
+						</div>
+					</div>
+					<div class="col-lg-2">
+					</div>
 				</div>
 				
 			</div>
 		</section>
 		<!-- End Overview Area -->
+
 		
 
 		<!-- Start Space Area-->
