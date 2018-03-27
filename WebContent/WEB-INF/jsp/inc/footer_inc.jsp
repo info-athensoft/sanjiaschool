@@ -46,13 +46,12 @@
 									<i class="fa fa-home"></i>
 								</div>
 								<div class="ftr__contact">
-									<p>Villa Maria College (Sunday)</p>
-									<p>4245, boulevard Décarie, Montreal, QC H4A 3K4</p>
-									<p></p>
-									<p>5051, avenue Notre-Dame-de-Grace, Montreal, QC H4A 1K2</p>
-									<p>Enter Ave Grey et Ave claremont<br/>
-									   Turn left to Chenin villa maria<br/>
-									   Go straight to parking station
+									<p><spring:message code="contact-info-schoollocation-line1"/></p>
+									<p><spring:message code="contact-info-schoollocation-line2"/></p>
+									<p><spring:message code="contact-info-schoollocation-line3"/></p>
+									<p><spring:message code="contact-info-schoollocation-line4"/><br/>
+									   <spring:message code="contact-info-schoollocation-line5"/><br/>
+									   <spring:message code="contact-info-schoollocation-line6"/>
 									</p>
 								</div>
 							</div>
@@ -103,6 +102,7 @@
 								</div>
 								<div class="ftr__contact">
 									<p><a href="#">sanjiaschool</a></p>
+									<!-- <img src="${site_img_dir}/qrcode/original.png" width="40%"/>  -->
 								</div>
 							</div>
 						</div>

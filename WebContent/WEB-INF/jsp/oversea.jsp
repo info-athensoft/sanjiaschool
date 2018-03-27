@@ -123,7 +123,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-kid"/></a></h6>
-								<p> </p>
+								<p><spring:message code="oversea-intlstu-kid-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -139,7 +139,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-highschool"/></a></h6>
-								<p></p>
+								<p><spring:message code="oversea-intlstu-highschool-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -155,7 +155,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-college"/></a></h6>
-								<p></p>
+								<p><spring:message code="oversea-intlstu-college-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -183,7 +183,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-university"/></a></h6>
-								<p></p>
+								<p><spring:message code="oversea-intlstu-university-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -199,7 +199,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="/oversea-intlstu.html?lang=${loc}"><spring:message code="oversea-intlstu-support"/></a></h6>
-								<p></p>
+								<p><spring:message code="oversea-intlstu-support-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-intlstu.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>

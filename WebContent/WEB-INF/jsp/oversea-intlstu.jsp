@@ -100,7 +100,7 @@
         
         
         
-        <!-- Start Overview Area -->
+        <!-- Start Kid Area -->
 		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
@@ -178,9 +178,36 @@
 					
 				</div>
 				
+				<div class="container-fluid">
+					<div class="row galler__wrap">
+						<!-- Start Single Gallery -->
+						<c:forEach var="picNum" begin="1" end="4" step="1">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="${site_img_dir}/oversea/kidgarden/${picNum}.jpg" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="${site_img_dir}/oversea/kidgarden/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
+						</c:forEach>	
+						<!-- End Single Gallery -->
+						
+					</div>	
+				</div>
+				
 			</div>
 		</section>
-		<!-- End Overview Area -->
+		<!-- End Kid Area -->
         
         		
 		
