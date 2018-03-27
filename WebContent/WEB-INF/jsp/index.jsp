@@ -75,6 +75,31 @@
 		<!-- //Header -->
 		<!-- Strat Slider Area -->
 		<div class="slide__carosel owl-carousel owl-theme">
+			<div class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
+							<div class="slider__activation">
+								<!-- Start Single Slide -->
+								<div class="slide">
+									<div class="slide__inner">
+										<h6></h6>
+										<h1 class="font-section-title"><spring:message code="slogan-3"/></h1>
+										<p style="font-size:1.5em;"><spring:message code="slogan-3b"/></p>
+										<div class="slider__btn">
+											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
+										</div>
+									</div>
+								</div>
+								<!-- End Single Slide -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+		
+		
 			<div class="slider__area slider--two bg-pngimage--1 d-flex slider__fixed--height justify-content-end align-items-center">
 				<div class="container">
 					<div class="row">
@@ -108,8 +133,8 @@
 								<div class="slide">
 									<div class="slide__inner">
 										<h6></h6>
-										<h1><spring:message code="slogan-2"/></h1>
-										<p><spring:message code="slogan-2b"/></p>
+										<h1 class="font-section-title"><spring:message code="slogan-2"/></h1>
+										<p style="font-size:1.5em;"><spring:message code="slogan-2b"/></p>
 										<div class="slider__btn">
 											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
 										</div>
@@ -122,28 +147,7 @@
 				</div>
 			</div>
 			
-			<div class="slider__area slider--two bg-pngimage--4 d-flex slider__fixed--height justify-content-end align-items-center">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 offset-lg-6 offset-md-3 col-md-9 col-sm-12">
-							<div class="slider__activation">
-								<!-- Start Single Slide -->
-								<div class="slide">
-									<div class="slide__inner">
-										<h6></h6>
-										<h1><spring:message code="slogan-3"/></h1>
-										<p><spring:message code="slogan-3b"/></p>
-										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
-										</div>
-									</div>
-								</div>
-								<!-- End Single Slide -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+			
 		
 		</div>
 		<!-- End Slider Area -->
