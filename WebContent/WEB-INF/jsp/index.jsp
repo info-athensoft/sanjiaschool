@@ -87,7 +87,7 @@
 										<h1 class="font-section-title"><spring:message code="slogan-3"/></h1>
 										<p style="font-size:1.5em;"><spring:message code="slogan-3b"/></p>
 										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
+											<a class="dcare__btn black__btn max__height-btn" href="/intlexchange-intlcamps.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 										</div>
 									</div>
 								</div>
@@ -136,7 +136,7 @@
 										<h1 class="font-section-title"><spring:message code="slogan-2"/></h1>
 										<p style="font-size:1.5em;"><spring:message code="slogan-2b"/></p>
 										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
+											<a class="dcare__btn black__btn max__height-btn" href="/course-tech.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 										</div>
 									</div>
 								</div>

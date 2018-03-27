@@ -226,7 +226,7 @@
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-art-content-1"/><br/><br/></p>
+					<h4><spring:message code="course-art-content-1"/></h4>
 					<p><spring:message code="course-art-content-2"/><br/><br/></p>
 					<p><spring:message code="course-art-content-3"/><br/><br/></p>
 					<p><spring:message code="course-art-content-4"/><br/><br/></p>
@@ -240,6 +240,7 @@
 				<div class="container-fluid">
 					<div class="row galler__wrap">
 						<!-- Start Single Gallery -->
+						<c:forEach var="picNum" begin="1" end="8" step="1">
 						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
@@ -251,69 +252,13 @@
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
 											<li><a href="${site_img_dir}/program/5/1.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>
 							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/5/2.jpg"" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/2.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/5/3.jpg"" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/3.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/5/4.jpg"" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/4.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
+						</div>
+						</c:forEach>	
 						<!-- End Single Gallery -->
 					</div>	
 				</div>
