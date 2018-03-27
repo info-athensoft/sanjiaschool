@@ -115,9 +115,12 @@
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-funchinese-content-1"/><br/><br/></p>
+					<h4><spring:message code="course-funchinese-content-1"/></h4>
+					<p><br/></p>
 					<p><spring:message code="course-funchinese-content-2"/><br/><br/></p>
-					<p><spring:message code="course-funchinese-content-3"/><br/><br/></p>
+					
+					<h4><spring:message code="course-funchinese-content-3"/></h4>
+					<p><br/></p>
 					<p><spring:message code="course-funchinese-content-4"/><br/></p>
 					<p><spring:message code="course-funchinese-content-5"/><br/></p>
 					<p><spring:message code="course-funchinese-content-6"/><br/></p>

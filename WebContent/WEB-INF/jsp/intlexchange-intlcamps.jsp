@@ -177,14 +177,13 @@
 		<!-- End Our Service Area -->
         
         
-        
 		<!-- Start Choose Us Area -->
 		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="activity-intlcamps-title-1"/></h2>
+							<h2 class="title__line font-section-title"><spring:message code="intlexchange-intlcamps-title-1"/></h2>
 							<p></p>
 						</div>
 					</div>
@@ -195,9 +194,29 @@
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlcamps-content-1-1"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					<p><spring:message code="intlexchange-intlcamps-content-1-2"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlcamps-content-1-3"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlcamps-content-1-4"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
 					</div>
 					<div class="col-lg-2">
 					</div>
+					
 				</div>
 				
 				<div class="container-fluid">
@@ -231,7 +250,46 @@
 		</section>
 		<!-- End Choose Us Area -->
 		
-		
+		 
+        <!-- Start Art Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="intlexchange-intlcamps-title-2"/></h2>
+							<p><spring:message code="intlexchange-intlcamps-title-2b"/><br/><br/></p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlcamps-content-2-1"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					<p><spring:message code="intlexchange-intlcamps-content-2-2"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<!-- End Art Area -->
+        
 
 		<!-- Start Space Area-->
 		<section class="section-padding--lg--bottom"></section>

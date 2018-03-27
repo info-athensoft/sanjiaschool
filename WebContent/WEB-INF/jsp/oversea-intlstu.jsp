@@ -142,6 +142,7 @@
 					<h4><spring:message code="oversea-intlstu-service3-title"/></h4>
 					<p><br/></p>
 					<p><spring:message code="oversea-intlstu-service3-content-1"/></p>
+					<p><spring:message code="oversea-intlstu-service3-content-2"/></p>
 					
 					<p><br/></p>
 					<p><br/></p>

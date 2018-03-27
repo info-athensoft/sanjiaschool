@@ -115,7 +115,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="#"><spring:message code="class-name-funchinese"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -130,8 +130,8 @@
 								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="class-name-french"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="class-name-french"/></a></h6>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -146,8 +146,8 @@
 								<img src="/images/shape/sm-icon/3.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="class-name-english"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="class-name-english"/></a></h6>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -181,15 +181,20 @@
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-langtraining-content-1"/><br/><br/></p>
+					<h4><spring:message code="course-langtraining-content-1"/></h4>
+					<p><br/></p>
+					
 					<p><spring:message code="course-langtraining-content-2"/><br/><br/></p>
-					<p><spring:message code="course-langtraining-content-3"/><br/><br/></p>
+					
+					<h4><spring:message code="course-langtraining-content-3"/></h4>
+					<p><br/></p>
 					<p><spring:message code="course-langtraining-content-4"/><br/><br/></p>
 					<p><spring:message code="course-langtraining-content-5"/><br/><br/></p>
 					<p><spring:message code="course-langtraining-content-6"/><br/><br/></p>
-					<br/><br/>
 					
-					<p><spring:message code="course-langtraining-content-11"/><br/><br/></p>
+					
+					<h4><spring:message code="course-langtraining-content-11"/></h4>
+					<p><br/></p>
 					<p><spring:message code="course-langtraining-content-12"/><br/></p>
 					<p><spring:message code="course-langtraining-content-13"/><br/></p>
 					<p><spring:message code="course-langtraining-content-14"/><br/></p>

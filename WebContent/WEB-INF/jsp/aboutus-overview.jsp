@@ -84,9 +84,9 @@
                             <div class="bradcaump__inner text-center">
                                 <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-about-overview"/></h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
+                                  <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <a href="/aboutus.html?lang=${loc}"><span class="breadcrumb-item active"><spring:message code="page-title-about"/></span></a>
+                                  <a href="/aboutus-overview.html?lang=${loc}"><span class="breadcrumb-item active"><spring:message code="page-title-about"/></span></a>
                                 </nav>
                             </div>
                         </div>
@@ -103,7 +103,7 @@
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
 							<h2 class="title__line font-section-title"><spring:message code="aboutus-section-overview-title-1"/></h2>
-							<p>校长：安平<br/><br/></p>
+							<p><spring:message code="aboutus-section-history-title-2"/><br/><br/></p>
 						</div>
 					</div>
 				</div>
@@ -113,7 +113,7 @@
 					<div class="col-lg-2">
 					</div>	
 					<div class="col-lg-8 col-sm-8 col-md-8">
-						<img src="${site_img_dir}/about/1.jpg" width="80%"/>
+						<img src="${site_img_dir}/about/2.jpg" width="80%"/>
 					</div>
 					<div class="col-lg-2">
 					</div>

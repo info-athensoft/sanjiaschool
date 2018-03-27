@@ -114,7 +114,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="#"><spring:message code="class-name-sing"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -129,8 +129,8 @@
 								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="class-name-piano"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="class-name-piano"/></a></h6>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -145,8 +145,8 @@
 								<img src="/images/shape/sm-icon/3.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="class-name-zither"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="class-name-zither"/></a></h6>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -174,8 +174,8 @@
 								<img src="/images/shape/sm-icon/4.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="class-name-art"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="class-name-art"/></a></h6>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -191,8 +191,8 @@
 								<img src="/images/shape/sm-icon/4.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="class-name-writing"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="class-name-writing"/></a></h6>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>

@@ -83,11 +83,11 @@
 								<!-- Start Single Slide -->
 								<div class="slide">
 									<div class="slide__inner">
-										<h6>Create New Things</h6>
-										<h1>Play & learn, Create Beautiful Heaven World</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
+										<h6></h6>
+										<h1 class="font-section-title"><spring:message code="slogan-1"/></h1>
+										<p style="font-size:1.5em;"><spring:message code="slogan-1b"/></p>
 										<div class="slider__btn">
-											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
+											<a class="dcare__btn black__btn max__height-btn" href="#featured_class"><spring:message code="common-btn-readmore"/></a>
 										</div>
 									</div>
 								</div>
@@ -108,8 +108,8 @@
 								<div class="slide">
 									<div class="slide__inner">
 										<h6></h6>
-										<h1 style="color:#eeeeee">Slogan 2</h1>
-										<p  style="color:#eeeeee">Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
+										<h1><spring:message code="slogan-2"/></h1>
+										<p><spring:message code="slogan-2b"/></p>
 										<div class="slider__btn">
 											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
 										</div>
@@ -131,8 +131,8 @@
 								<div class="slide">
 									<div class="slide__inner">
 										<h6></h6>
-										<h1>Slogan 3</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipisic ming elit, sed do ei Excepteur.Tnam Bajki      vntoccaecat cupida proident, sunt in culpa qui dese runt mol .</p>
+										<h1><spring:message code="slogan-3"/></h1>
+										<p><spring:message code="slogan-3b"/></p>
 										<div class="slider__btn">
 											<a class="dcare__btn black__btn max__height-btn" href="#"><spring:message code="common-btn-readmore"/></a>
 										</div>
@@ -150,7 +150,7 @@
 		
 		<!-- Start our Class Area -->
 		<section class="junior__classes__area section-lg-padding--top section-padding--sm--bottom bg--white bg-image--1">
-			<div class="container">
+			<div class="container" id="featured_class">
 				<div class="row">
 					<div class="col-md-12 col-lg-12 col-sm-12">
 						<div class="section__title text-center">
@@ -164,23 +164,24 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
-								<a href="class-details.html">
+								<a href="#">
 									<img src="${site_img_dir}/course/1.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
 								<div class="classes__icon">
 									<img src="/images/class/star/1.png" alt="starr images">
-									<span>$99</span>
+									<span><spring:message code="class-tag"/></span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html"><spring:message code="class-name-robotics"/></a></h4>
+									<h4 class="font-section-title"><a href="/course-tech.html?lang=${loc}"><spring:message code="class-name-robotics"/></a></h4>
+									<!-- 
 									<ul class="class__time">
 										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
 										<li><spring:message code="class-size"/> : 12</li>
-									</ul>
+									</ul> -->
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
+										<a class="dcare__btn--2" href="/contactus.html?lang=${loc}"><spring:message code="common-btn-inquiry"/></a>
 									</div>
 								</div>
 							</div>
@@ -191,23 +192,24 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
-								<a href="class-details.html">
+								<a href="#">
 									<img src="${site_img_dir}/course/2.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
 								<div class="classes__icon">
 									<img src="/images/class/star/1.png" alt="starr images">
-									<span>$99</span>
+									<span><spring:message code="class-tag"/></span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html"><spring:message code="class-name-art"/></a></h4>
+									<h4 class="font-section-title"><a href="/course-art.html?lang=${loc}"><spring:message code="class-name-art"/></a></h4>
+									<!-- 
 									<ul class="class__time">
 										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
 										<li><spring:message code="class-size"/> : 12</li>
-									</ul>
+									</ul> -->
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
+										<a class="dcare__btn--2" href="/contactus.html?lang=${loc}"><spring:message code="common-btn-inquiry"/></a>
 									</div>
 								</div>
 							</div>
@@ -218,23 +220,24 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
-								<a href="class-details.html">
+								<a href="#">
 									<img src="${site_img_dir}/course/3.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
 								<div class="classes__icon">
 									<img src="/images/class/star/1.png" alt="starr images">
-									<span>$99</span>
+									<span><spring:message code="class-tag"/></span>
 								</div>
 								<div class="class__details">
-									<h4><a href="#"><spring:message code="class-name-taekwondo"/></a></h4>
+									<h4 class="font-section-title"><a href="/course-sport.html?lang=${loc}"><spring:message code="class-name-taekwondo"/></a></h4>
+									<!-- 
 									<ul class="class__time">
 										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
 										<li><spring:message code="class-size"/> : 12</li>
-									</ul>
+									</ul> -->
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
+										<a class="dcare__btn--2" href="/contactus.html?lang=${loc}"><spring:message code="common-btn-inquiry"/></a>
 									</div>
 								</div>
 							</div>
@@ -245,23 +248,24 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
-								<a href="class-details.html">
+								<a href="#">
 									<img src="${site_img_dir}/course/4.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
 								<div class="classes__icon">
 									<img src="/images/class/star/1.png" alt="starr images">
-									<span>$99</span>
+									<span><spring:message code="class-tag"/></span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html"><spring:message code="class-name-dancing"/></a></h4>
+									<h4 class="font-section-title"><a href="/course-art.html?lang=${loc}"><spring:message code="class-name-writing"/></a></h4>
+									<!-- 
 									<ul class="class__time">
 										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
 										<li><spring:message code="class-size"/> : 12</li>
-									</ul>
+									</ul> -->
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
+										<a class="dcare__btn--2" href="/contactus.html?lang=${loc}"><spring:message code="common-btn-inquiry"/></a>
 									</div>
 								</div>
 							</div>
@@ -272,23 +276,24 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
-								<a href="class-details.html">
+								<a href="#">
 									<img src="${site_img_dir}/course/5.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
 								<div class="classes__icon">
 									<img src="/images/class/star/1.png" alt="starr images">
-									<span>$99</span>
+									<span><spring:message code="class-tag"/></span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html"><spring:message code="class-name-music"/></a></h4>
+									<h4 class="font-section-title"><a href="/course-art.html?lang=${loc}"><spring:message code="class-name-sing"/></a></h4>
+									<!-- 
 									<ul class="class__time">
 										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
 										<li><spring:message code="class-size"/> : 12</li>
-									</ul>
+									</ul> -->
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
+										<a class="dcare__btn--2" href="/contactus.html?lang=${loc}"><spring:message code="common-btn-inquiry"/></a>
 									</div>
 								</div>
 							</div>
@@ -299,23 +304,24 @@
 					<div class="col-lg-4 col-sm-6">
 						<div class="junior__classes">
 							<div class="classes__thumb">
-								<a href="class-details.html">
+								<a href="#">
 									<img src="${site_img_dir}/course/6.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
 								<div class="classes__icon">
 									<img src="/images/class/star/1.png" alt="starr images">
-									<span>$99</span>
+									<span><spring:message code="class-tag"/></span>
 								</div>
 								<div class="class__details">
-									<h4><a href="class-details.html"><spring:message code="class-name-funchinese"/></a></h4>
+									<h4 class="font-section-title"><a href="/course-funchinese.html?lang=${loc}"><spring:message code="class-name-funchinese"/></a></h4>
+									<!-- 
 									<ul class="class__time">
 										<li><spring:message code="class-start-date"/> : 2018-Mar-30</li>
 										<li><spring:message code="class-size"/> : 12</li>
-									</ul>
+									</ul> -->
 									<div class="class__btn">
-										<a class="dcare__btn--2" href="class-details.html"><spring:message code="common-btn-admission"/></a>
+										<a class="dcare__btn--2" href="/contactus.html?lang=${loc}"><spring:message code="common-btn-inquiry"/></a>
 									</div>
 								</div>
 							</div>
@@ -364,7 +370,7 @@
 							
 							</p>
 							<div class="wel__btn">
-								<a class="dcare__btn" href="/aboutus.html"><spring:message code="common-btn-readmore"/></a>
+								<a class="dcare__btn" href="/aboutus-overview.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 							</div>
 						</div>
 					</div>

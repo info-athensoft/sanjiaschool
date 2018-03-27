@@ -36,9 +36,11 @@
 					<nav class="mainmenu__nav">
                        <ul class="mainmenu">
                            <li class="drop"><a href="/index.html"><spring:message code="menu-home"/></a>
+                           <!-- 
                                <ul class="dropdown__menu">
                                    <li><a href="#"><spring:message code="menu-about-schoolcalendar"/></a></li>
                                </ul>
+                              -->
                            </li>
                            <li class="drop"><a href="/aboutus-overview.html?lang=${loc}"><spring:message code="menu-about"/></a>
                            	    
@@ -46,7 +48,7 @@
                                    <li><a href="/aboutus-overview.html?lang=${loc}"><spring:message code="menu-about-overview"/></a></li>
                                    <li><a href="/aboutus-history.html?lang=${loc}"><spring:message code="menu-about-history"/></a></li>
                                    <li><a href="/aboutus-team.html?lang=${loc}"><spring:message code="menu-about-team"/></a></li>
-                                   <li><a href="/aboutus-partner.html?lang=${loc}"><spring:message code="menu-about-partner"/></a></li>
+                                  <!--  <li><a href="/aboutus-partner.html?lang=${loc}"><spring:message code="menu-about-partner"/></a></li>  -->
                                    <li><a href="/gallery.html"><spring:message code="menu-show"/></a></li>
                                </ul> 
                            </li>

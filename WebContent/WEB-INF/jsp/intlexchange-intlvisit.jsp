@@ -263,17 +263,14 @@
         
         
         
-        
-        
-        
-		<!-- Start Choose Us Area -->
-		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
+        <!-- Start Bmodel Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="activity-intlcamps-title-1"/></h2>
-							<p></p>
+							<h2 class="title__line font-section-title"><spring:message code="intlexchange-intlvisit-title-3"/></h2>
+							<p><spring:message code="intlexchange-intlvisit-title-3b"/><br/><br/></p>
 						</div>
 					</div>
 				</div>
@@ -283,43 +280,33 @@
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-3-1"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
+					<p><spring:message code="intlexchange-intlvisit-content-3-2"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					<p><spring:message code="intlexchange-intlvisit-content-3-3"/></p>
+					<p><br/></p>
+					<p><br/></p>
+					
+					
 					</div>
 					<div class="col-lg-2">
 					</div>
-				</div>
-				
-				<div class="container-fluid">
-					<div class="row galler__wrap">
-						<!-- Start Single Gallery -->
-						<c:forEach var="picNum" step="1" begin="1" end="8">
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/activity/1/${picNum}.jpg" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/activity/1-big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>
-						</c:forEach>
-							
-						<!-- End Single Gallery -->
-					</div>	
+					
 				</div>
 				
 			</div>
 		</section>
-		<!-- End Choose Us Area -->
-		
-		
+		<!-- End Bmodel Area -->
+        
+       
 
 		<!-- Start Space Area-->
 		<section class="section-padding--lg--bottom"></section>

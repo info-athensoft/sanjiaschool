@@ -121,7 +121,7 @@
 							</div>
 							<div class="service__details">
 								<h6><a href="#"><spring:message code="class-name-robotics"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -136,8 +136,8 @@
 								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="class-name-math"/></a></h6>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.</p>
+								<h6><a href="#"><spring:message code="class-name-math"/></a></h6>
+								<p></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -160,25 +160,25 @@
 		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
-				<!--
+				
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="course-art-title-1"/></h2>
+							<h2 class="title__line font-section-title"><spring:message code="course-tech-title-2"/></h2>
 							<p></p>
 						</div>
 					</div>
 				</div>
-				  -->
+				 
 				
 				<div class="row mt--20">
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-art-content-1"/><br/><br/></p>
-					<p><spring:message code="course-art-content-2"/><br/><br/></p>
-					<p><spring:message code="course-art-content-3"/><br/><br/></p>
-					<p><spring:message code="course-art-content-4"/><br/><br/></p>
-					<p><spring:message code="course-art-content-5"/><br/><br/></p>
+					<p><spring:message code="course-tech-content-2-1"/><br/><br/></p>
+					<p><spring:message code="course-tech-content-2-2"/><br/><br/></p>
+					<p><spring:message code="course-tech-content-2-3"/><br/><br/></p>
+					<p><spring:message code="course-tech-content-2-4"/><br/><br/></p>
+					<p><spring:message code="course-tech-content-2-5"/><br/><br/></p>
 					
 					</div>
 					<div class="col-lg-2">
@@ -188,87 +188,107 @@
 				<div class="container-fluid">
 					<div class="row galler__wrap">
 						<!-- Start Single Gallery -->
+						<c:forEach var="picNum" begin="5" end="8" step="1">
 						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/5/1.jpg" alt="gallery images">
+										<img src="${site_img_dir}/course-robo/${picNum}.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/1.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+											<li><a href="${site_img_dir}/course-robo/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>
 							</div>	
-						</div>	
+						</div>
+						</c:forEach>	
 						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/5/2.jpg"" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/2.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/5/3.jpg"" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/3.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/program/5/4.jpg"" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/4.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>	
-						<!-- End Single Gallery -->
+						
 					</div>	
 				</div>
 				
 			</div>
 		</section>
 		<!-- End Choose Us Area -->
+		
+		
+		
+		
+		
+		<!-- Start Choose Us Area -->
+		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+				
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="course-tech-title-3"/></h2>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				 
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<h5><spring:message code="course-tech-title-3a"/></h5>
+					<p><spring:message code="course-tech-content-3-1"/><br/><br/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="course-tech-title-3b"/></h5>
+					<p><spring:message code="course-tech-content-3-2"/><br/><br/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="course-tech-title-3c"/></h5>
+					<p><spring:message code="course-tech-content-3-3"/><br/><br/></p>
+					<p><br/></p>
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+				</div>
+				
+				<div class="container-fluid">
+					<div class="row galler__wrap">
+						<!-- Start Single Gallery -->
+						<c:forEach var="picNum" begin="1" end="4" step="1">
+						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="${site_img_dir}/course-robo/${picNum}.jpg" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="${site_img_dir}/course-robo/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
+						</c:forEach>	
+						<!-- End Single Gallery -->
+						
+					</div>	
+				</div>
+				
+			</div>
+		</section>
+		<!-- End Choose Us Area -->
+		
+		
+		
+		
 		
 		<!-- Start Space Area-->
 		<section class="section-padding--lg--bottom"></section>
