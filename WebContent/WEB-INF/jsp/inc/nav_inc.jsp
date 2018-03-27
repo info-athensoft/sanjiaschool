@@ -129,16 +129,17 @@
 			<!-- END language -->
 		</div>
 		<!-- Mobile Menu -->
-		<!-- 
+		
         	<div class="mobile-menu d-block d-lg-none">
 	        	<div class="logo">
-	        		<a href="index.html"><img src="${webapp_name}/images/logo/2.png" alt="logo"></a>
+	        		<a href="/index.html?lang=${loc}"><img src="${site_img_dir}/logo/1.png" alt="logo" width="35%"></a>
 	        	</div>
+	        	<!-- 
 	        	<a class="minicart-trigger" href="#">
 	        		<i class="fa fa-shopping-basket"></i>
-	        	</a>
+	        	</a> -->
 	        </div>
-	     -->
+	     
         <!-- Mobile Menu -->
 		</div>
 	</div>
