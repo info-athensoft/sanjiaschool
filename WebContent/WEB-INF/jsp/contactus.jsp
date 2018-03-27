@@ -86,7 +86,7 @@
                             <div class="bradcaump__inner text-center">
                                 <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-contactus"/></h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
+                                  <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
                                   <span class="breadcrumb-item active"><spring:message code="page-title-contactus"/></span>
                                 </nav>
@@ -151,26 +151,25 @@
 										<li><spring:message code="contact-info-schoollocation-line2"/></li>
 										<li><spring:message code="contact-info-schoollocation-line3"/></li>
 										<li><spring:message code="contact-info-schoollocation-line4"/></li>
-										<li><spring:message code="contact-info-schoollocation-line5"/></li>
-										<li><spring:message code="contact-info-schoollocation-line6"/></li>
+										<li><spring:message code="contact-info-schoollocation-line5"/> <spring:message code="contact-info-schoollocation-line6"/></li>
 									</ul>
 								</div>
 	        				</div>
 	        			</div>
 	        			<div><p><br/></p></div>
+	        			<!-- 
 	        			<div class="col-md-12 col-sm-12 col-12 col-lg-12">
 	        				<div class="address location">
 								<div class="address__inner">
 									<h4><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;   <spring:message code="contact-info-title-officelocation"/></h4>
 									<p></p>
 									<ul>
-										<li>4238,Boulevard Décarie App#204</li>
-										<li>Montréal, QC H4A 3K3</li>
+										<li>4238,Boulevard Décarie App#204, Montréal, QC H4A 3K3</li>
 									</ul>
 								</div>
 	        				</div>
 	        			</div>
-	        			<div><p><br/></p></div>
+	        			<div><p><br/></p></div> -->
 	        			<!-- End Single Address -->
 	        			<!-- Start Single Address -->
 	        			<div class="col-md-12 col-sm-12 col-12 col-lg-12 xs-mt-60">
@@ -179,8 +178,7 @@
 									<h4><i class="fa fa-phone"></i>&nbsp;&nbsp;&nbsp;   <spring:message code="contact-info-title-phone"/></h4>
 									<p></p>
 									<ul>
-										<li>(514)885-5160</li>
-										<li>(438)928-4470</li>
+										<li>(514)885-5160&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;&nbsp;(438)928-4470</li>
 									</ul>
 								</div>
 	        				</div>
@@ -195,8 +193,23 @@
 									<p></p>
 									<ul>
 										<li>sanjiaschool@gmail.com</li>
-										<li>info@sanjiaschool.org</li>
+										<!-- <li>info@sanjiaschool.org</li>  -->
 									</ul>
+								</div>
+	        				</div>
+	        			</div>
+	        			<div><p><br/></p></div>
+	        			<!-- End Single Address -->
+	        			<!-- Start Single Address -->
+	        			<div class="col-md-12 col-sm-12 col-12 col-lg-12 md-mt-60 sm-mt-60">
+	        				<div class="address email">
+								<div class="address__inner">
+									<h4><i class="fa fa-wechat"></i>&nbsp;&nbsp;&nbsp;   <spring:message code="contact-info-title-wechat"/></h4>
+									<p></p>
+									<ul>
+										<li>sanjiaschool</li>
+									</ul>
+									<img src="${site_img_dir}/qrcode/original.png" width="20%"/>
 								</div>
 	        				</div>
 	        			</div>
@@ -208,7 +221,89 @@
         </section>
         <!-- End Contact Form -->
 		
-		 <div class="contact__map">
+		
+		 
+        <!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="contact-address-hint-title"/></h2>
+							<p><br/><br/></p>
+						</div>
+					</div>
+				</div>
+				
+				<div class="container-fluid">
+					<div class="row galler__wrap">
+						<!-- Start Single Gallery -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="${site_img_dir}/address/11.jpg" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="${site_img_dir}/address/1.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>	
+						<!-- End Single Gallery -->
+						<!-- Start Single Gallery -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="${site_img_dir}/address/2.jpg" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="${site_img_dir}/address/2.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>	
+						<!-- End Single Gallery -->
+						<!-- Start Single Gallery -->
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="${site_img_dir}/address/3.jpg" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="${site_img_dir}/address/3.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>	
+						<!-- End Single Gallery -->
+						
+					</div>	
+				</div>
+			</div>
+		</section>
+		<!-- End Overview Area -->
+        
+		
+		
+		<div class="contact__map">
         	<div class="container-fluid">
         		<div class="row">
         			<div class="col-lg-12">

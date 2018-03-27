@@ -245,7 +245,7 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/5/1.jpg" alt="gallery images">
+										<img src="${site_img_dir}/program/5/${picNum}.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">

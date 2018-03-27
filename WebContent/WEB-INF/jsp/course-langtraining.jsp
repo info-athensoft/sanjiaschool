@@ -86,7 +86,7 @@
                             <div class="bradcaump__inner text-center">
                                 <h2 class="bradcaump-title font-section-title"><spring:message code="course-langtraining-title-1"/></h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="/index.html"><spring:message code="page-title-home"/></a>
+                                  <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
                                   <span class="breadcrumb-item active"><spring:message code="page-title-course"/></span>
                                 </nav>
@@ -225,8 +225,8 @@
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/3/1.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+											<li><a href="${site_img_dir}/program/3/1.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -238,14 +238,14 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/3/2.jpg"" alt="gallery images">
+										<img src="${site_img_dir}/program/3/2.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/3/2.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+											<li><a href="${site_img_dir}/program/3/2.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -257,14 +257,14 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/3/3.jpg"" alt="gallery images">
+										<img src="${site_img_dir}/program/3/3.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/3/3.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+											<li><a href="${site_img_dir}/program/3/3.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>
@@ -276,14 +276,14 @@
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/3/4.jpg"" alt="gallery images">
+										<img src="${site_img_dir}/program/3/4.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/3/4.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+											<li><a href="${site_img_dir}/program/3/4.jpg" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>

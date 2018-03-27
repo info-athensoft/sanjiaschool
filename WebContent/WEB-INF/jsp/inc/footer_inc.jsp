@@ -68,6 +68,7 @@
 					<div class="footer__widget">
 						<h4 class="font-section-title"><spring:message code="footer-title-2"/></h4>
 						<div class="ftr__address__inner">
+						    <!-- 
 							<div class="ftr__address">
 								<div class="ftr_icon">
 									<i class="fa fa-home"></i>
@@ -77,6 +78,7 @@
 									<p>4238, Boulevard Décarie, App.204<br/> Montréal, QC H4A 3K3</p>
 								</div>
 							</div>
+							 -->
 							<div class="ftr__address">
 								<div class="ftr_icon">
 									<i class="fa fa-phone"></i>
@@ -85,7 +87,6 @@
 									<p><a href="#">(514)885-5160</a></p>
 									<p><a href="#">(438)928-4470</a></p>
 								</div>
-								
 							</div>
 							<div class="ftr__address">
 								<div class="ftr_icon">
@@ -93,7 +94,15 @@
 								</div>
 								<div class="ftr__contact">
 									<p><a href="#">sanjiaschool@gmail.com</a></p>
-									<p><a href="#">info@sanjiaschool.org</a></p>
+									<!-- <p><a href="#">info@sanjiaschool.org</a></p>  -->
+								</div>
+							</div>
+							<div class="ftr__address">
+								<div class="ftr_icon">
+									<i class="fa fa-wechat"></i>
+								</div>
+								<div class="ftr__contact">
+									<p><a href="#">sanjiaschool</a></p>
 								</div>
 							</div>
 						</div>
@@ -105,7 +114,7 @@
 				<!-- End Single Widget -->
 					
 				<!-- Start Single Widget -->
-				<div class="col-lg-3 col-md-6 col-sm-12 sm-mt-40">
+				<div class="col-lg-3 col-md-6 col-sm-12 sm-mt-20">
 					<div class="footer__widget">
 						<h4 class="font-section-title"><spring:message code="footer-title-3"/></h4>
 						<div class="footer__innner">
@@ -126,7 +135,7 @@
 								<!-- Start Single -->
 								<div class="single__ftr__post d-flex">
 									<div class="ftr__post__thumb">
-										<a href="blog-details.html">
+										<a href="#">
 											<img src="${site_img_dir}/gallery/footer2/11.jpg" alt="gallery images">
 										</a>
 									</div>
@@ -137,6 +146,7 @@
 								</div>
 								<!-- End Single -->
 								
+								
 							</div>
 						</div>
 					</div>
@@ -144,7 +154,7 @@
 				<!-- End Single Widget -->
 				
 				<!-- Start Single Widget -->
-				<div class="col-lg-3 col-md-6 col-sm-12 md-mt-40 sm-mt-40">
+				<div class="col-lg-3 col-md-6 col-sm-12 md-mt-20 sm-mt-20">
 					<div class="footer__widget">
 						<h4 class="font-section-title"><spring:message code="footer-title-4"/></h4>
 						<div class="footer__innner">

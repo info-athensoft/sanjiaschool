@@ -117,7 +117,7 @@
 								<h6><a href="#"><spring:message code="camps-visit-mcgill"/></a></h6>
 								<p><spring:message code="camps-visit-mcgill-desc"/></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#">Read More</a>
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
@@ -133,7 +133,7 @@
 								<h6><a href="#"><spring:message code="camps-visit-kongzi"/></a></h6>
 								<p><spring:message code="camps-visit-kongzi-desc"/></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#">Read More</a>
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
@@ -149,7 +149,7 @@
 								<h6><a href="#"><spring:message code="camps-visit-bmodel"/></a></h6>
 								<p><spring:message code="camps-visit-bmodel-desc"/></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#">Read More</a>
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>

@@ -234,7 +234,7 @@
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
 											<li><a href="${site_img_dir}/activity/1-big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
 								</div>
