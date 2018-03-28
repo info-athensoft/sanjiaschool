@@ -129,12 +129,65 @@
 					<p><spring:message code="oversea-intlstu-service1-content-5"/></p>
 					<p><spring:message code="oversea-intlstu-service1-content-6"/></p>
 					
+					<div class="container-fluid">
+						<div class="row galler__wrap">
+							<!-- Start Single Gallery -->
+							<c:forEach var="picNum" begin="1" end="4" step="1">
+							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+								<div class="gallery">
+									<div class="gallery__thumb">
+										<a href="#">
+											<img src="${site_img_dir}/oversea/kidgarden/${picNum}.jpg" alt="gallery images">
+										</a>
+									</div>
+									<div class="gallery__hover__inner">
+										<div class="gallery__hover__action">
+											<ul class="gallery__zoom">
+												<li><a href="${site_img_dir}/oversea/kidgarden/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+												<li><a href="#"><i class="fa fa-link"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>	
+							</div>
+							</c:forEach>	
+							<!-- End Single Gallery -->
+							
+						</div>	
+					</div>
 					<p><br/></p>
 					<p><br/></p>
 					
 					<h4><spring:message code="oversea-intlstu-service2-title"/></h4>
 					<p><br/></p>
 					<p><spring:message code="oversea-intlstu-service2-content"/></p>
+					
+					<div class="container-fluid">
+						<div class="row galler__wrap">
+							<!-- Start Single Gallery -->
+							<c:forEach var="picNum" begin="1" end="1" step="1">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="gallery">
+									<div class="gallery__thumb">
+										<a href="#">
+											<img src="${site_img_dir}/oversea/highschool/${picNum}.jpg" alt="gallery images">
+										</a>
+									</div>
+									<div class="gallery__hover__inner">
+										<div class="gallery__hover__action">
+											<ul class="gallery__zoom">
+												<li><a href="${site_img_dir}/oversea/highschool/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+												<li><a href="#"><i class="fa fa-link"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>	
+							</div>
+							</c:forEach>	
+							<!-- End Single Gallery -->
+							
+						</div>	
+					</div>
 					
 					<p><br/></p>
 					<p><br/></p>
@@ -144,6 +197,33 @@
 					<p><spring:message code="oversea-intlstu-service3-content-1"/></p>
 					<p><spring:message code="oversea-intlstu-service3-content-2"/></p>
 					
+					<div class="container-fluid">
+						<div class="row galler__wrap">
+							<!-- Start Single Gallery -->
+							<c:forEach var="picNum" begin="1" end="1" step="1">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="gallery">
+									<div class="gallery__thumb">
+										<a href="#">
+											<img src="${site_img_dir}/oversea/college/${picNum}.jpg" alt="gallery images">
+										</a>
+									</div>
+									<div class="gallery__hover__inner">
+										<div class="gallery__hover__action">
+											<ul class="gallery__zoom">
+												<li><a href="${site_img_dir}/oversea/college/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+												<li><a href="#"><i class="fa fa-link"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>	
+							</div>
+							</c:forEach>	
+							<!-- End Single Gallery -->
+							
+						</div>	
+					</div>
+					
 					<p><br/></p>
 					<p><br/></p>
 					
@@ -152,6 +232,33 @@
 					<p><spring:message code="oversea-intlstu-service4-content-1"/></p>
 					<p><spring:message code="oversea-intlstu-service4-content-2"/></p>
 					<p><spring:message code="oversea-intlstu-service4-content-3"/></p>
+					
+					<div class="container-fluid">
+						<div class="row galler__wrap">
+							<!-- Start Single Gallery -->
+							<c:forEach var="picNum" begin="1" end="1" step="1">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="gallery">
+									<div class="gallery__thumb">
+										<a href="#">
+											<img src="${site_img_dir}/oversea/university/${picNum}.jpg" alt="gallery images">
+										</a>
+									</div>
+									<div class="gallery__hover__inner">
+										<div class="gallery__hover__action">
+											<ul class="gallery__zoom">
+												<li><a href="${site_img_dir}/oversea/university/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+												<li><a href="#"><i class="fa fa-link"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>	
+							</div>
+							</c:forEach>	
+							<!-- End Single Gallery -->
+							
+						</div>	
+					</div>
 					
 					<p><br/></p>
 					<p><br/></p>
@@ -178,32 +285,7 @@
 					
 				</div>
 				
-				<div class="container-fluid">
-					<div class="row galler__wrap">
-						<!-- Start Single Gallery -->
-						<c:forEach var="picNum" begin="1" end="4" step="1">
-						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-							<div class="gallery">
-								<div class="gallery__thumb">
-									<a href="#">
-										<img src="${site_img_dir}/oversea/kidgarden/${picNum}.jpg" alt="gallery images">
-									</a>
-								</div>
-								<div class="gallery__hover__inner">
-									<div class="gallery__hover__action">
-										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/oversea/kidgarden/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
-											<li><a href="#"><i class="fa fa-link"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>	
-						</div>
-						</c:forEach>	
-						<!-- End Single Gallery -->
-						
-					</div>	
-				</div>
+				
 				
 			</div>
 		</section>
