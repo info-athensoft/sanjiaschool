@@ -174,10 +174,10 @@
 								<img src="/images/shape/sm-icon/4.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="#"><spring:message code="class-name-art"/></a></h6>
+								<h6><a href="/course-art-drawing.html?lang=${loc}"><spring:message code="class-name-art"/></a></h6>
 								<p></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+									<a class="dcare__btn--2" href="/course-art-drawing.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
@@ -212,16 +212,16 @@
 		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
-				<!--
+				
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="course-art-title-1"/></h2>
+							<h2 class="title__line font-section-title"><spring:message code="course-art-title-2"/></h2>
 							<p></p>
 						</div>
 					</div>
 				</div>
-				  -->
 				
+				<!-- 
 				<div class="row mt--20">
 					<div class="col-lg-2">
 					</div>
@@ -236,7 +236,8 @@
 					<div class="col-lg-2">
 					</div>
 				</div>
-				
+				 -->
+				 
 				<div class="container-fluid">
 					<div class="row galler__wrap">
 						<!-- Start Single Gallery -->
@@ -247,11 +248,12 @@
 									<a href="#">
 										<img src="${site_img_dir}/program/5/${picNum}.jpg" alt="gallery images">
 									</a>
+									<!-- <div class="text-center"><p>Name</p></div> -->
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/5/1.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/program/5/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>

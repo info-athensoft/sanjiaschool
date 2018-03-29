@@ -30,6 +30,11 @@ public class CourseController {
 		return "course-art";
 	}
 	
+	@RequestMapping("/course-art-drawing.html")
+	public String gotoCourse501(){
+		return "course-art-drawing";
+	}
+	
 	@RequestMapping("/course-sport.html")
 	public String gotoCourse6(){
 		return "course-sport";

@@ -169,7 +169,7 @@
 						<div class="junior__classes">
 							<div class="classes__thumb">
 								<a href="#">
-									<img src="${site_img_dir}/course/1.jpg" alt="class images">
+									<img src="${site_img_dir}/course-home/1.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
@@ -197,7 +197,7 @@
 						<div class="junior__classes">
 							<div class="classes__thumb">
 								<a href="#">
-									<img src="${site_img_dir}/course/2.jpg" alt="class images">
+									<img src="${site_img_dir}/course-home/2.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
@@ -225,7 +225,7 @@
 						<div class="junior__classes">
 							<div class="classes__thumb">
 								<a href="#">
-									<img src="${site_img_dir}/course/3.jpg" alt="class images">
+									<img src="${site_img_dir}/course-home/3.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
@@ -253,7 +253,7 @@
 						<div class="junior__classes">
 							<div class="classes__thumb">
 								<a href="#">
-									<img src="${site_img_dir}/course/4.jpg" alt="class images">
+									<img src="${site_img_dir}/course-home/4.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
@@ -281,7 +281,7 @@
 						<div class="junior__classes">
 							<div class="classes__thumb">
 								<a href="#">
-									<img src="${site_img_dir}/course/5.jpg" alt="class images">
+									<img src="${site_img_dir}/course-home/5.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">
@@ -309,7 +309,7 @@
 						<div class="junior__classes">
 							<div class="classes__thumb">
 								<a href="#">
-									<img src="${site_img_dir}/course/6.jpg" alt="class images">
+									<img src="${site_img_dir}/course-home/6.jpg" alt="class images">
 								</a>
 							</div>
 							<div class="classes__inner">

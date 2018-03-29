@@ -20,4 +20,14 @@ public class OverseaController {
 	public String gotoOverseaImmigrant(){
 		return "oversea-immigrant";
 	}
+	
+	@RequestMapping("/oversea-immigrant-quebec-peq.html")
+	public String gotoOverseaImmigrantQuebecPEQ(){
+		return "oversea-immigrant-quebec-peq";
+	}
+	
+	@RequestMapping("/oversea-immigrant-quebec-investor.html")
+	public String gotoOverseaImmigrantQuebecInvestor(){
+		return "oversea-immigrant-quebec-investor";
+	}
 }

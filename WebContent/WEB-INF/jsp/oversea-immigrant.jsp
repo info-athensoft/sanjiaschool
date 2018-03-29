@@ -98,6 +98,21 @@
         </div>
         <!-- End Bradcaump area -->
         
+         
+        <!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-federal-title"/></h2>
+							<p><spring:message code="oversea-immigrant-federal-content"/></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Overview Area -->
         
         
         <!-- Start Overview Area -->
@@ -106,8 +121,7 @@
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-title-2"/></h2>
-							<p><br/><br/></p>
+							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-federal-title-1"/></h2>
 						</div>
 					</div>
 				</div>
@@ -118,28 +132,82 @@
 					</div>
 					<div class="col-lg-8">
 					<p><br/></p>
-					
-					<h4><spring:message code="oversea-immigrant-service1-title"/></h4>
-										
+					<h4><spring:message code="oversea-immigrant-federal-head-1"/></h4>
 					<p><br/></p>
-					<p><br/></p>
-					
-					<h4><spring:message code="oversea-immigrant-service2-title"/></h4>
-					
-					<p><br/></p>
+					<ol>
+						<li><spring:message code="oversea-immigrant-federal-content-1-1"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-1-2"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-1-3"/></li>
+					</ol>
 					<p><br/></p>
 					
-					<h4><spring:message code="oversea-immigrant-service3-title"/></h4>
-					
+					<h4><spring:message code="oversea-immigrant-federal-head-2"/></h4>
 					<p><br/></p>
-					<p><br/></p>
-					
-					<h4><spring:message code="oversea-immigrant-service4-title"/></h4>
-					
-					<p><br/></p>
+					<p><spring:message code="oversea-immigrant-federal-content-2-1"/></p>
+					<p><spring:message code="oversea-immigrant-federal-content-2-2"/></p>
+					<p><spring:message code="oversea-immigrant-federal-content-2-3"/></p>
 					<p><br/></p>
 					
-					<h4><spring:message code="oversea-immigrant-service5-title"/></h4>
+					
+					<h4><spring:message code="oversea-immigrant-federal-head-3"/></h4>
+					<p><br/></p>
+					<p><spring:message code="oversea-immigrant-federal-content-3"/></p>
+					<ol>
+						<li><spring:message code="oversea-immigrant-federal-content-3-1"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-2"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-3"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-4"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-5"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-6"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-7"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-8"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-9"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-10"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-11"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-12"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-13"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-3-14"/></li>
+					</ol>					
+					<p><br/></p>
+					
+					
+					<h4><spring:message code="oversea-immigrant-federal-head-4"/></h4>
+					<p><br/></p>
+					
+					<h5><spring:message code="oversea-immigrant-federal-head-4-1"/></h5>
+					<ol>
+						<li><spring:message code="oversea-immigrant-federal-content-4-1-1"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-1-2"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-1-3"/></li>
+					</ol>
+					<p><br/></p>
+					
+					<h5><spring:message code="oversea-immigrant-federal-head-4-2"/></h5>
+					<ol>
+						<li><spring:message code="oversea-immigrant-federal-content-4-2-1"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-2-2"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-2-3"/></li>
+					</ol>
+					<p><br/></p>
+					
+					<h5><spring:message code="oversea-immigrant-federal-head-4-3"/></h5>
+					<ol>
+						<li><spring:message code="oversea-immigrant-federal-content-4-3-1"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-3-2"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-3-3"/></li>
+					</ol>
+					<p><br/></p>
+					
+					
+					<h5><spring:message code="oversea-immigrant-federal-head-4-4"/></h5>
+					<ol>
+						<li><spring:message code="oversea-immigrant-federal-content-4-4-1"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-4-2"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-4-3"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-4-4"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-4-5"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-4-4-6"/></li>
+					</ol>
 					
 					</div>
 					<div class="col-lg-2">
@@ -151,6 +219,119 @@
 		</section>
 		<!-- End Overview Area -->
         
+        
+        <!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-federal-title-2"/></h2>
+							<p><spring:message code="oversea-immigrant-federal-content-2"/></p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<p><br/></p>
+					<h4><spring:message code="oversea-immigrant-federal-head-5"/></h4>
+					<p><br/></p>
+					<ol>
+						<li><spring:message code="oversea-immigrant-federal-content-5-1"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-5-2"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-5-3"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-5-4"/></li>
+						<li><spring:message code="oversea-immigrant-federal-content-5-5"/></li>
+					</ol>
+					<p><br/></p>
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<!-- End Overview Area -->
+		
+		
+		<!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-federal-title-3"/></h2>
+							<p><spring:message code="oversea-immigrant-federal-content-2"/></p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<p><br/></p>
+					<h4><spring:message code="oversea-immigrant-federal-head-6"/></h4>
+					<p><br/></p>
+					<h5><spring:message code="oversea-immigrant-federal-head-6-1"/></h5>
+					<p><spring:message code="oversea-immigrant-federal-content-6-1-1"/></p>
+					<p><br/></p>
+					<p><spring:message code="oversea-immigrant-federal-content-6-1-2"/></p>
+					<p><br/></p>
+					<p><spring:message code="oversea-immigrant-federal-content-6-1-3"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="oversea-immigrant-federal-head-6-2"/></h5>
+					<p><br/></p>
+					<table>
+						<tr>
+							<th width="20%"><spring:message code="oversea-immigrant-federal-content-6-2-1"/></th>
+							<th width="20%"><spring:message code="oversea-immigrant-federal-content-6-2-8"/></th>
+						</tr>
+						<tr>
+							<td><spring:message code="oversea-immigrant-federal-content-6-2-2"/></td>
+							<td>25</td>
+						</tr>
+						<tr>
+							<td><spring:message code="oversea-immigrant-federal-content-6-2-3"/></td>
+							<td>25</td>
+						</tr>
+						<tr>
+							<td><spring:message code="oversea-immigrant-federal-content-6-2-4"/></td>
+							<td>10</td>
+						</tr>
+						<tr>
+							<td><spring:message code="oversea-immigrant-federal-content-6-2-5"/></td>
+							<td>24</td>
+						</tr>
+						<tr>
+							<td><spring:message code="oversea-immigrant-federal-content-6-2-6"/></td>
+							<td>4</td>
+						</tr>
+						<tr>
+							<th><spring:message code="oversea-immigrant-federal-content-6-2-7"/></th>
+							<td>100</td>
+						</tr>
+					</table>
+					<p><br/></p>
+					<p><spring:message code="oversea-immigrant-federal-content-6-2"/></p>
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<!-- End Overview Area -->
         		
 		
 		<!-- Start Space Area-->

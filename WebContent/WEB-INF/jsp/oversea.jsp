@@ -214,7 +214,7 @@
 		</section>
 		<!-- End Our Service Area -->
 		
-		
+		<div id="oversea-immigrant"></div>
         
         <!-- Start Our Service Area -->
 		<section class="junior__service bg-image--1 section-padding--bottom">
@@ -229,14 +229,14 @@
 				</div>
 				<div class="row">
 					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-						<div class="service bg--white border__color wow fadeInUp">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="service__icon">
-								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="/oversea-immigrant.html?lang=${loc}"><spring:message code="oversea-immigrant-skilled"/></a></h6>
-								<p></p>
+								<h6><a href="#"><spring:message code="oversea-immigrant-federal-express"/></a></h6>
+								<p><spring:message code="oversea-immigrant-federal-express-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -251,8 +251,8 @@
 								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="/oversea-immigrant.html?lang=${loc}"><spring:message code="oversea-immigrant-startup"/></a></h6>
-								<p></p>
+								<h6><a href="#"><spring:message code="oversea-immigrant-federal-startup"/></a></h6>
+								<p>&nbsp;</p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -261,14 +261,14 @@
 					</div>
 					<!-- End Single Service -->
 					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
-						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
 							<div class="service__icon">
-								<img src="/images/shape/sm-icon/3.png" alt="icon images">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="/oversea-immigrant.html?lang=${loc}"><spring:message code="oversea-immigrant-invest"/></a></h6>
-								<p></p>
+								<h6><a href="#"><spring:message code="oversea-immigrant-federal-selfemployment"/></a></h6>
+								<p>&nbsp;</p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
@@ -276,8 +276,8 @@
 						</div>
 					</div>
 					<!-- End Single Service -->
-					
 				</div>
+				
 			</div>
 		</section>
 		<!-- End Our Service Area -->
@@ -298,7 +298,7 @@
 								<h6><a href="#"><spring:message code="oversea-immigrant-stu2imm"/></a></h6>
 								<p></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+									<a class="dcare__btn--2" href="/oversea-immigrant-quebec-peq.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
@@ -311,22 +311,74 @@
 								<img src="/images/shape/sm-icon/2.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="service.html"><spring:message code="oversea-immigrant-peq"/></a></h6>
+								<h6><a href="service.html"><spring:message code="oversea-immigrant-quebec-peq"/></a></h6>
 								<p></p>
 								<div class="service__btn">
-									<a class="dcare__btn--2" href="/oversea-immigrant.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+									<a class="dcare__btn--2" href="/oversea-immigrant-quebec-peq.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<!-- End Single Service -->
-					
-					
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
+						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/2.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="oversea-immigrant-quebec-investor"/></a></h6>
+								<p></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/oversea-immigrant-quebec-investor.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
 				</div>
 			</div>
 		</section>
 		<!-- End Our Service Area -->
 		
+		
+		 <!-- Start Overview Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="oversea-immigrant-service-feature-title"/></h2>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--201">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<p><br/></p>
+					
+					<ol>
+						<li><spring:message code="oversea-immigrant-service-feature-1"/></li>
+						<li><spring:message code="oversea-immigrant-service-feature-2"/></li>
+						<li><spring:message code="oversea-immigrant-service-feature-3"/></li>
+						<li><spring:message code="oversea-immigrant-service-feature-4"/></li>
+						<li><spring:message code="oversea-immigrant-service-feature-5"/></li>
+						<li><spring:message code="oversea-immigrant-service-feature-6"/></li>
+						<li><spring:message code="oversea-immigrant-service-feature-7"/></li>
+					</ol>					
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+					
+				</div>
+				
+			</div>
+		</section>
+		<!-- End Overview Area -->
 		
 		<!-- Start Space Area-->
 		<section class="section-padding--lg"><p><br/><br/></p></section>

@@ -108,14 +108,109 @@
 			<div class="container">
 				<div class="row">
 					<!-- Start Single Service -->
-					<div class="col-lg-6 col-md-6 col-sm-6 col-12">
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 						<div class="service bg--white border__color wow fadeInUp">
 							<div class="service__icon">
 								<img src="/images/shape/sm-icon/1.png" alt="icon images">
 							</div>
 							<div class="service__details">
-								<h6><a href="#"><spring:message code="camps-local-edphy"/></a></h6>
-								<p></p>
+								<h6><a href="#"><spring:message code="camps-local-villamaria-sport-1"/></a></h6>
+								<p><spring:message code="camps-local-villamaria-sport-1-desc"/></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="camps-local-villamaria-sport-2"/></a></h6>
+								<p><spring:message code="camps-local-villamaria-sport-2-desc"/></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="camps-local-villamaria-sport-3"/></a></h6>
+								<p><spring:message code="camps-local-villamaria-sport-3-desc"/></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+				</div>
+			</div>
+		</section>
+		<!-- End Our Service Area -->
+		
+		
+		 <!-- Start Our Service Area -->
+		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
+			<div class="container">
+				<div class="row">
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="camps-local-edphy-miniwild"/></a></h6>
+								<p><spring:message code="camps-local-edphy-miniwild-desc"/></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="camps-local-edphy-advminiwild"/></a></h6>
+								<p><spring:message code="camps-local-edphy-advminiwild-desc"/></p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="#"><spring:message code="camps-local-edphy-language"/></a></h6>
+								<p><spring:message code="camps-local-edphy-language-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
 								</div>
