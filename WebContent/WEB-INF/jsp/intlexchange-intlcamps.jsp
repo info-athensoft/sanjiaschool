@@ -177,7 +177,129 @@
 		<!-- End Our Service Area -->
         
         
-		<!-- Start Choose Us Area -->
+         
+		<!-- Start Edphy Area -->
+		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="intlexchange-localcamps-title-1"/></h2>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					<h4><spring:message code="intlexchange-localcamps-header-1-1"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-1-1"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-2-1"/></h4>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-1"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-1"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-2"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-2"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-3"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-3"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-4"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-4"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-5"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-5"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-6"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-6"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-7"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-7"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-8"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-8"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-9"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-9"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="intlexchange-localcamps-header-3-10"/></h4>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-10"/></p>
+					<p><br/></p>
+					<p><spring:message code="intlexchange-localcamps-content-3-10b"/></p>
+					<p><br/></p>
+					<ol>
+						<li><spring:message code="intlexchange-localcamps-item-3-10-1"/></li>
+						<li><spring:message code="intlexchange-localcamps-item-3-10-2"/></li>
+						<li><spring:message code="intlexchange-localcamps-item-3-10-3"/></li>
+						<li><spring:message code="intlexchange-localcamps-item-3-10-4"/></li>
+					</ol>
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+				</div>
+				
+				<div class="container-fluid">
+					<div class="row galler__wrap">
+						<!-- Start Single Gallery -->
+						<!-- 
+						<c:forEach var="picNum" step="1" begin="1" end="8">
+							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="${site_img_dir}/activity/1/${picNum}.jpg" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="${site_img_dir}/activity/1-big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="gallery-details.html"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
+						</c:forEach>
+						-->
+						<!-- End Single Gallery -->
+					</div>	
+				</div>
+				
+			</div>
+		</section>
+		<!-- End Edphy Area -->
+		
+        
+		<!-- Start Edphy Area -->
 		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
@@ -248,7 +370,7 @@
 				
 			</div>
 		</section>
-		<!-- End Choose Us Area -->
+		<!-- End Edphy Area -->
 		
 		 
         <!-- Start Art Area -->
