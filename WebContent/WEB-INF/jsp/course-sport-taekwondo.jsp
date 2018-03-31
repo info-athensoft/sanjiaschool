@@ -27,7 +27,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Sanjia School - Fun Chinese</title>
+	<title>Sanjia School - Art Courses - Drawing</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicons -->
@@ -84,11 +84,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="course-sport-title-1"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-course-sport"/></h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
+                                  <span class="breadcrumb-item"><spring:message code="menu-course"/></span>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <span class="breadcrumb-item active"><spring:message code="page-title-course"/></span>
+                                  <a href="/course-sport.html?lang=${loc}"><span class="breadcrumb-item"><spring:message code="menu-course-sport"/></span></a>
                                 </nav>
                             </div>
                         </div>
@@ -98,117 +98,71 @@
         </div>
         <!-- End Bradcaump area -->
         
-        
-        <!-- Start Space Area-->
-		<section class="section-padding--lg"><p>&nbsp;</p></section>
-		<!-- End Space Area-->
-        
-        
-         
-        <!-- Start Our Service Area -->
-		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
-			<div class="container">
-				<div class="row">
-					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-						<div class="service bg--white border__color wow fadeInUp">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/1.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="#"><spring:message code="class-name-fencing"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
-						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/2.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/course-sport-taekwondo.html?lang=${loc}"><spring:message code="class-name-taekwondo"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/course-sport-taekwondo.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
-						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/3.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/course-sport-soccer.html?lang=${loc}"><spring:message code="class-name-soccer"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/course-sport-soccer.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
-					
-				</div>
-			</div>
-		</section>
-		<!-- End Our Service Area -->
+
 		
-        
-        
-        
-		<!-- Start Choose Us Area -->
-		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
+		
+		<!-- Start Taekwondo Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
-			<!-- 
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="course-sport-title-1"/></h2>
-							<p></p>
+							<h2 class="title__line font-section-title"><spring:message code="course-sport-taekwondo-title-1"/></h2>
+							<p><spring:message code="course-sport-taekwondo-title-1b"/></p>
 						</div>
 					</div>
 				</div>
-			 -->	
+				 
 				
-				<!-- 
 				<div class="row mt--20">
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-sport-content-1"/><br/><br/></p>
-					<p><spring:message code="course-sport-content-2"/><br/><br/></p>
+					<h5><spring:message code="course-sport-taekwondo-header-1"/><br/></h5>
+					<p><br/></p>					
+					<p><spring:message code="course-sport-taekwondo-content-1"/><br/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="course-sport-taekwondo-header-2"/><br/></h5>
+					<p><br/></p>					
+					<p><spring:message code="course-sport-taekwondo-content-2"/><br/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="course-sport-taekwondo-header-3"/><br/></h5>
+					<p><br/></p>					
+					<p><spring:message code="course-sport-taekwondo-content-3"/><br/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="course-sport-taekwondo-header-4"/><br/></h5>
+					<p><br/></p>					
+					<p><spring:message code="course-sport-taekwondo-content-4"/><br/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="course-sport-taekwondo-header-5"/><br/></h5>
+					<p><br/></p>					
+					<p><spring:message code="course-sport-taekwondo-content-5"/><br/></p>
+					<p><br/></p>
 					
 					</div>
 					<div class="col-lg-2">
 					</div>
 				</div>
-				 -->
-				 
+				
+				<!-- 
 				<div class="container-fluid">
 					<div class="row galler__wrap">
-						<!-- Start Single Gallery -->
 						<c:forEach var="picNum" begin="1" end="4" step="1">
 						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/sport/${picNum}.jpg" alt="gallery images">
+										<img src="${site_img_dir}/course/drawing/${picNum}.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/sport/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/course/drawing/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
@@ -216,17 +170,78 @@
 							</div>	
 						</div>
 						</c:forEach>	
-						<!-- End Single Gallery -->
+						
+					</div>	
+				</div>
+				 -->
+				
+				
+				<div class="container-fluid">
+					<div class="row galler__wrap">
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="https://static.wixstatic.com/media/252f4e_96e1c9d92f814e49a8e762be95b0d791.jpg/v1/fill/w_323,h_199,al_c,q_80,usm_0.66_1.00_0.01/252f4e_96e1c9d92f814e49a8e762be95b0d791.webp" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="https://static.wixstatic.com/media/252f4e_96e1c9d92f814e49a8e762be95b0d791.jpg/v1/fill/w_323,h_199,al_c,q_80,usm_0.66_1.00_0.01/252f4e_96e1c9d92f814e49a8e762be95b0d791.webp"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
+						
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="https://static.wixstatic.com/media/252f4e_53a3082a2fe646ddb1f2789fb2d73d54.jpg/v1/fill/w_345,h_235,al_c,q_80,usm_0.66_1.00_0.01/252f4e_53a3082a2fe646ddb1f2789fb2d73d54.webp" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="https://static.wixstatic.com/media/252f4e_53a3082a2fe646ddb1f2789fb2d73d54.jpg/v1/fill/w_345,h_235,al_c,q_80,usm_0.66_1.00_0.01/252f4e_53a3082a2fe646ddb1f2789fb2d73d54.webp" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
+						
+						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+							<div class="gallery">
+								<div class="gallery__thumb">
+									<a href="#">
+										<img src="https://static.wixstatic.com/media/252f4e_87bcdc01d32a41a380677ac64645c6b8.jpg/v1/fill/w_340,h_245,al_c,q_80,usm_0.66_1.00_0.01/252f4e_87bcdc01d32a41a380677ac64645c6b8.webp" alt="gallery images">
+									</a>
+								</div>
+								<div class="gallery__hover__inner">
+									<div class="gallery__hover__action">
+										<ul class="gallery__zoom">
+											<li><a href="https://static.wixstatic.com/media/252f4e_87bcdc01d32a41a380677ac64645c6b8.jpg/v1/fill/w_340,h_245,al_c,q_80,usm_0.66_1.00_0.01/252f4e_87bcdc01d32a41a380677ac64645c6b8.webp" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="#"><i class="fa fa-link"></i></a></li>
+										</ul>
+									</div>
+								</div>
+							</div>	
+						</div>
 						
 					</div>	
 				</div>
 				
 			</div>
 		</section>
-		<!-- End Choose Us Area -->
+		<!-- End Taekwondo Area -->
 		
 		
-
+		
+		
 		<!-- Start Space Area-->
 		<section class="section-padding--lg--bottom"></section>
 		<!-- End Space Area-->
@@ -235,8 +250,6 @@
 		<jsp:include page="${inc_dir}/footer_inc.jsp"/>
 		<!-- //Footer Area -->
 		
-		
-
         <!-- Register Form -->
         <div class="accountbox-wrapper">
             <div class="accountbox">

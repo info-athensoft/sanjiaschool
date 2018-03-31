@@ -39,4 +39,15 @@ public class CourseController {
 	public String gotoCourse6(){
 		return "course-sport";
 	}
+	
+	/*hao ran ti yu*/
+	@RequestMapping("/course-sport-taekwondo.html")
+	public String gotoCourse601(){
+		return "course-sport-taekwondo";
+	}
+	
+	@RequestMapping("/course-sport-soccer.html")
+	public String gotoCourse602(){
+		return "course-sport-soccer";
+	}
 }

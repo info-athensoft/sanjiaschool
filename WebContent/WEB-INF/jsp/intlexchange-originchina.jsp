@@ -99,15 +99,15 @@
         <!-- End Bradcaump area -->
         
         <!-- Start Space Area-->
-		<section class="section-padding--lg"><p>&nbsp;</p></section>
+		<!-- <section class="section-padding--lg"><p>&nbsp;</p></section>  -->
 		<!-- End Space Area-->
         
         
         <!-- Start Our Service Area -->
+        <!-- 
 		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
 			<div class="container">
 				<div class="row">
-					<!-- Start Single Service -->
 					<div class="col-lg-6 col-md-6 col-sm-6 col-12">
 						<div class="service bg--white border__color wow fadeInUp">
 							<div class="service__icon">
@@ -122,12 +122,161 @@
 							</div>
 						</div>
 					</div>
-					<!-- End Single Service -->
-					
 				</div>
 			</div>
 		</section>
+		 -->
 		<!-- End Our Service Area -->
+        
+        
+        
+		<!-- Start art Area -->
+		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-lg-12 col-sm-12 col-md-12">
+						<div class="section__title text-center">
+							<h2 class="title__line font-section-title"><spring:message code="originchina-title-1"/></h2>
+							<p></p>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="row mt--20">
+					<div class="col-lg-2">
+					</div>
+					<div class="col-lg-8">
+					
+					<p><spring:message code="originchina-content-1-1"/></p>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-1-2"/></p>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-1-3"/></p>
+					<p><br/></p>
+					
+					
+					<h4><spring:message code="originchina-header-2"/></h4>
+					<p><spring:message code="originchina-content-2-1"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="originchina-header-3"/></h4>
+					<p><spring:message code="originchina-content-3-1"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="originchina-header-4"/></h4>
+					<p><spring:message code="originchina-content-4-1"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="originchina-header-5"/></h4>
+					<p><spring:message code="originchina-content-5-1"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="originchina-header-6"/></h4>
+					<p><br/></p>
+					<h5><spring:message code="originchina-header-6-1"/></h5>
+					<p><spring:message code="originchina-content-6-1"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-6-2"/></h5>
+					<p><spring:message code="originchina-content-6-2"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-6-3"/></h5>
+					<p><spring:message code="originchina-content-6-3"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="originchina-header-7"/></h4>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-7a"/></p>
+					<p><spring:message code="originchina-content-7b"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-7-1"/></h5>
+					<p><spring:message code="originchina-content-7-1"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-7-2"/></h5>
+					<p><spring:message code="originchina-content-7-2"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-7-3"/></h5>
+					<p><spring:message code="originchina-content-7-3"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="originchina-header-8"/></h4>
+					<p><br/></p>
+					<h5><spring:message code="originchina-header-8-1"/></h5>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-8-1"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-8-2"/></h5>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-8-2"/></p>
+					<ol>
+						<li><spring:message code="originchina-item-8-2-1"/></li>
+						<li><spring:message code="originchina-item-8-2-2"/></li>
+						<li><spring:message code="originchina-item-8-2-3"/></li>
+						<li><spring:message code="originchina-item-8-2-4"/></li>
+					</ol>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-8-3"/></h5>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-8-3"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-8-4"/></h5>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-8-4"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-8-5"/></h5>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-8-5a"/></p>
+					<p><spring:message code="originchina-content-8-5b"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-8-6"/></h5>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-8-6"/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="originchina-header-8-7"/></h5>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-8-7"/></p>
+					<p><br/></p>
+					
+					<h4><spring:message code="originchina-header-9"/></h4>
+					<p><br/></p>
+					<p><spring:message code="originchina-content-9"/></p>
+					<p><br/></p>
+					<ol>
+						<li><spring:message code="originchina-item-9-1"/></li>
+						<li><spring:message code="originchina-item-9-2"/></li>
+						<li><spring:message code="originchina-item-9-3"/></li>
+						<li><spring:message code="originchina-item-9-4"/></li>
+						<li><spring:message code="originchina-item-9-5"/></li>
+						<li><spring:message code="originchina-item-9-6"/></li>
+						<li><spring:message code="originchina-item-9-7"/></li>
+						<li><spring:message code="originchina-item-9-8"/></li>
+						<li><spring:message code="originchina-item-9-9"/></li>
+					</ol>
+					
+					
+					</div>
+					<div class="col-lg-2">
+					</div>
+				</div>
+				
+				
+				
+			</div>
+		</section>
+		<!-- End art  Area -->
+		
         
         
 		<!-- Start Space Area-->

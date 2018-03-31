@@ -164,7 +164,7 @@
 		<!-- End Our Service Area -->
 		
 		
-		 <!-- Start Our Service Area -->
+		<!-- Start Our Service Area -->
 		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
 			<div class="container">
 				<div class="row">
@@ -213,6 +213,34 @@
 								<p><spring:message code="camps-local-edphy-language-desc"/></p>
 								<div class="service__btn">
 									<a class="dcare__btn--2" href="/localcamps-edphy-language.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Single Service -->
+					
+				</div>
+			</div>
+		</section>
+		<!-- End Our Service Area -->
+		
+		
+		
+		<!-- Start Our Service Area -->
+		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
+			<div class="container">
+				<div class="row">
+					<!-- Start Single Service -->
+					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
+						<div class="service bg--white border__color wow fadeInUp">
+							<div class="service__icon">
+								<img src="/images/shape/sm-icon/1.png" alt="icon images">
+							</div>
+							<div class="service__details">
+								<h6><a href="/localcamps-art.html?lang=${loc}"><spring:message code="camps-local-art"/></a></h6>
+								<p>&nbsp;</p>
+								<div class="service__btn">
+									<a class="dcare__btn--2" href="/localcamps-art.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
 								</div>
 							</div>
 						</div>

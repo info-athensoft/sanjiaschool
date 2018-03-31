@@ -57,5 +57,10 @@ public class IntlexchangeController {
 		return "localcamps-edphy-language";
 	}
 	
+	@RequestMapping("/localcamps-art.html")
+	public String gotoLocal7(){
+		return "localcamps-art";
+	}
+	
 	
 }

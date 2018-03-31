@@ -27,7 +27,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Sanjia School - Fun Chinese</title>
+	<title>Sanjia School - Art Courses - Drawing</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- Favicons -->
@@ -84,11 +84,11 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="bradcaump__inner text-center">
-                                <h2 class="bradcaump-title font-section-title"><spring:message code="course-sport-title-1"/></h2>
+                                <h2 class="bradcaump-title font-section-title"><spring:message code="page-title-course-sport"/></h2>
                                 <nav class="bradcaump-inner">
-                                  <a class="breadcrumb-item" href="/index.html?lang=${loc}"><spring:message code="page-title-home"/></a>
+                                  <span class="breadcrumb-item"><spring:message code="menu-course"/></span>
                                   <span class="brd-separetor"><img src="/images/icons/brad.png" alt="separator images"></span>
-                                  <span class="breadcrumb-item active"><spring:message code="page-title-course"/></span>
+                                  <a href="/course-sport.html?lang=${loc}"><span class="breadcrumb-item"><spring:message code="menu-course-sport"/></span></a>
                                 </nav>
                             </div>
                         </div>
@@ -98,117 +98,58 @@
         </div>
         <!-- End Bradcaump area -->
         
-        
-        <!-- Start Space Area-->
-		<section class="section-padding--lg"><p>&nbsp;</p></section>
-		<!-- End Space Area-->
-        
-        
-         
-        <!-- Start Our Service Area -->
-		<section class="junior__service bg-image--1 section-padding--bottom section--padding--sm--top">
-			<div class="container">
-				<div class="row">
-					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12">
-						<div class="service bg--white border__color wow fadeInUp">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/1.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="#"><spring:message code="class-name-fencing"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="#"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12 xs-mt-60">
-						<div class="service bg--white border__color border__color--2 wow fadeInUp" data-wow-delay="0.2s">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/2.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/course-sport-taekwondo.html?lang=${loc}"><spring:message code="class-name-taekwondo"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/course-sport-taekwondo.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
-					<!-- Start Single Service -->
-					<div class="col-lg-4 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
-						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
-							<div class="service__icon">
-								<img src="/images/shape/sm-icon/3.png" alt="icon images">
-							</div>
-							<div class="service__details">
-								<h6><a href="/course-sport-soccer.html?lang=${loc}"><spring:message code="class-name-soccer"/></a></h6>
-								<p></p>
-								<div class="service__btn">
-									<a class="dcare__btn--2" href="/course-sport-soccer.html?lang=${loc}"><spring:message code="common-btn-readmore"/></a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- End Single Service -->
-					
-				</div>
-			</div>
-		</section>
-		<!-- End Our Service Area -->
+
 		
-        
-        
-        
-		<!-- Start Choose Us Area -->
-		<section class="dcare__choose__us__area section-padding--sm bg--white bg-image--1">
+		
+		<!-- Start Taekwondo Area -->
+		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
-			<!-- 
 				<div class="row">
 					<div class="col-lg-12 col-sm-12 col-md-12">
 						<div class="section__title text-center">
-							<h2 class="title__line font-section-title"><spring:message code="course-sport-title-1"/></h2>
+							<h2 class="title__line font-section-title"><spring:message code="course-sport-soccer-title-1"/></h2>
 							<p></p>
 						</div>
 					</div>
 				</div>
-			 -->	
+				 
 				
-				<!-- 
 				<div class="row mt--20">
 					<div class="col-lg-2">
 					</div>
 					<div class="col-lg-8">
-					<p><spring:message code="course-sport-content-1"/><br/><br/></p>
-					<p><spring:message code="course-sport-content-2"/><br/><br/></p>
+					<h5><spring:message code="course-sport-soccer-header-1"/><br/></h5>
+					<p><br/></p>					
+					<p><spring:message code="course-sport-soccer-content-1"/><br/></p>
+					<p><br/></p>
+					
+					<h5><spring:message code="course-sport-soccer-header-2"/><br/></h5>
+					<p><br/></p>					
+					<p><spring:message code="course-sport-soccer-content-2-1"/><br/></p>
+					<p><spring:message code="course-sport-soccer-content-2-2"/><br/></p>
+					<p><br/></p>
+					
 					
 					</div>
 					<div class="col-lg-2">
 					</div>
 				</div>
-				 -->
-				 
+				
+				<!-- 
 				<div class="container-fluid">
 					<div class="row galler__wrap">
-						<!-- Start Single Gallery -->
 						<c:forEach var="picNum" begin="1" end="4" step="1">
 						<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
 									<a href="#">
-										<img src="${site_img_dir}/program/sport/${picNum}.jpg" alt="gallery images">
+										<img src="${site_img_dir}/course/drawing/${picNum}.jpg" alt="gallery images">
 									</a>
 								</div>
 								<div class="gallery__hover__inner">
 									<div class="gallery__hover__action">
 										<ul class="gallery__zoom">
-											<li><a href="${site_img_dir}/program/sport/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
+											<li><a href="${site_img_dir}/course/drawing/big/${picNum}.jpg"" data-lightbox="grportimg" data-title="My caption"><i class="fa fa-search"></i></a></li>
 											<li><a href="#"><i class="fa fa-link"></i></a></li>
 										</ul>
 									</div>
@@ -216,17 +157,21 @@
 							</div>	
 						</div>
 						</c:forEach>	
-						<!-- End Single Gallery -->
 						
 					</div>	
 				</div>
+				 -->
+				
+				
+				
 				
 			</div>
 		</section>
-		<!-- End Choose Us Area -->
+		<!-- End Taekwondo Area -->
 		
 		
-
+		
+		
 		<!-- Start Space Area-->
 		<section class="section-padding--lg--bottom"></section>
 		<!-- End Space Area-->
@@ -235,8 +180,6 @@
 		<jsp:include page="${inc_dir}/footer_inc.jsp"/>
 		<!-- //Footer Area -->
 		
-		
-
         <!-- Register Form -->
         <div class="accountbox-wrapper">
             <div class="accountbox">
