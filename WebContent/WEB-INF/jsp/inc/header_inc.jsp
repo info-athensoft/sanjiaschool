@@ -36,7 +36,8 @@
 			 -->
 			 <div class="jun__header__top__left">
 					<ul class="top__address d-flex justify-content-start align-items-center flex-wrap flex-lg-nowrap flex-md-nowrap">
-						<li><span class="font-dark font-companyname"><spring:message code="header-companyname"/></span> &nbsp; &nbsp; &nbsp;<span class="font-dark font-companyname2"><spring:message code="header-companyname2"/></span></li>
+						<li><span class="font-dark font-companyname"><spring:message code="header-companyname"/></span> &nbsp; &nbsp; &nbsp;
+						<span class="font-dark font-companyname2"><spring:message code="header-companyname2"/></span></li>
 					</ul>
 				</div>
 			</div>

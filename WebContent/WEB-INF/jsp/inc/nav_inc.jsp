@@ -62,12 +62,12 @@
                            </li>
                            <li class="drop"><a href="#"><spring:message code="menu-course"/></a>
                                <ul class="dropdown__menu">
-                               	   <li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-course-chinesesl"/></a></li>
-                                   <li><a href="/course-funchinese.html?lang=${loc}"><spring:message code="menu-course-funchinese"/></a></li>
-                                   <li><a href="/course-tech.html?lang=${loc}"><spring:message code="menu-course-tech"/></a></li>
-                                   <li><a href="/course-langtraining.html?lang=${loc}"><spring:message code="menu-course-langtraining"/></a></li>
-                                   <li><a href="/course-art.html?lang=${loc}"><spring:message code="menu-course-art"/></a></li>
-                                   <li><a href="/course-sport.html?lang=${loc}"><spring:message code="menu-course-sport"/></a></li>
+                               		<li><a href="/course-tech.html?lang=${loc}"><spring:message code="menu-course-tech"/></a></li>
+                               	   	<li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-course-chinesesl"/></a></li>
+                                   	<li><a href="/course-funchinese.html?lang=${loc}"><spring:message code="menu-course-funchinese"/></a></li>
+                                   	<li><a href="/course-langtraining.html?lang=${loc}"><spring:message code="menu-course-langtraining"/></a></li>
+                                   	<li><a href="/course-art.html?lang=${loc}"><spring:message code="menu-course-art"/></a></li>
+                                   	<li><a href="/course-sport.html?lang=${loc}"><spring:message code="menu-course-sport"/></a></li>
                                </ul>
                            </li>
                            <li class="drop"><a href="/adultprog.html?lang=${loc}"><spring:message code="menu-adultprog"/></a>

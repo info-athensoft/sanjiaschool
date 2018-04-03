@@ -51,7 +51,7 @@
 									<p><spring:message code="contact-info-schoollocation-line3"/></p>
 									<p><spring:message code="contact-info-schoollocation-line4"/><br/>
 									   <spring:message code="contact-info-schoollocation-line5"/><br/>
-									   <spring:message code="contact-info-schoollocation-line6"/>
+									   <a target="_blank" href="/contactus.html?lang=${loc}"><spring:message code="contact-info-schoollocation-line6"/></a>
 									</p>
 								</div>
 							</div>
