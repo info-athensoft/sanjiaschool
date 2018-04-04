@@ -31,8 +31,14 @@ div{
 }
 
 .font-section-title{
+	font-size: 44px;
 	font-family: "Roboto", "Microsoft YaHei", sans-serif ! important;
 	font-weight: 500 ! Important;
+	line-height: 115% ! Important; 
+}
+
+.slide-title{
+	z-index: 999;
 }
 
 .text-center{

@@ -861,25 +861,33 @@ a#scrollUp {
   background-image: url(/site_img/bg-png/1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center; 
+  z-index: -5;
+  }
 
 .bg-pngimage--2 {
   background-image: url(/site_img/bg-png/2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center; 
+  z-index: -5;
+  }
 
 .bg-pngimage--3 {
   background-image: url(/site_img/bg-png/3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center; 
+  z-index: -5;
+  }
 
 .bg-pngimage--4 {
   background-image: url(/site_img/bg-png/4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center; 
+  z-index: -5;
+  }
 
 .bg-pngimage--5 {
   background-image: url(/images/bg-png/5.png);
