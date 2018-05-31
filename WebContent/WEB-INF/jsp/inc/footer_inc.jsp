@@ -92,8 +92,8 @@
 									<i class="fa fa-envelope"></i>
 								</div>
 								<div class="ftr__contact">
-									<p><a href="#">sanjiaschool@gmail.com</a></p>
-									<!-- <p><a href="#">info@sanjiaschool.org</a></p>  -->
+									<!-- <p><a href="#">sanjiaschool@gmail.com</a></p> -->
+									<p><a href="#">info@sanjiaschool.org</a></p>
 								</div>
 							</div>
 							<div class="ftr__address">
