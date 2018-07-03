@@ -42,6 +42,7 @@
 	<script src="${webapp_name}/js/vendor/modernizr-3.5.0.min.js"></script>
 </head>
 
+<body class=" bg-image--1">
 <div class="section__title text-center">
 	<jsp:include page="./home.jsp"></jsp:include>
 </div>
@@ -51,17 +52,43 @@
 	</div>
 	<div class="col-lg-10">
 		<h3>Sample Topic</h3>
-		<hr/>
+		
+		<br/>
+		
+		<h4>Table of Contents</h4>
+		<ol>
+			<li>feature 1</li>
+			<li>feature 2</li>
+			<li>feature 3</li>
+		</ol>
+		
+		<br/><br/>
 		
 		<h4>feature 1</h4>
-		<p>feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1</p>
+		<img src="${site_img_dir}/gallery/album/2016/IMG_5097.JPG" alt="gallery images">
+		<p>Story of feature 1, write something to describe feature 1 here</p>
+		<br/><br/>
 		
 		<h4>feature 2</h4>
-		<p>feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1</p>
+		<img src="${site_img_dir}/gallery/album/2016/IMG_5097.JPG" alt="gallery images">
+		<p>Story of feature 2, write something to describe feature 1 here</p>
+		<br/><br/>
 		
 		<h4>feature 3</h4>
-		<p>feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1feature 1</p>
+		<img src="${site_img_dir}/gallery/album/2016/IMG_5097.JPG" alt="gallery images">
+		<p>Story of feature 3, write something to describe feature 1 here</p>
+		<br/><br/>
+		
+		<br/>
+		<footer>
+			<h4>Digital Footprint</h4>
+			 <span>By Athens Zhang, IT Coach</span>
+			 <span>on July 4, 2018</span>
+			 <p>&nbsp;</p>
+		</footer>
+		
 	</div>
 	<div class="col-lg-2">
 	</div>
 </div>
+</body>
