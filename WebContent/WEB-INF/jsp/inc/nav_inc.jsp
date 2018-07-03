@@ -49,6 +49,7 @@
                                    <li><a href="/aboutus-history.html?lang=${loc}"><spring:message code="menu-about-history"/></a></li>
                                    <li><a href="/aboutus-team.html?lang=${loc}"><spring:message code="menu-about-team"/></a></li>
                                   <!--  <li><a href="/aboutus-partner.html?lang=${loc}"><spring:message code="menu-about-partner"/></a></li>  -->
+                                   <li><a href="/tech-camp-2018.html"><spring:message code="menu-show-techcamp-2018"/></a></li>
                                    <li><a href="/gallery.html"><spring:message code="menu-show"/></a></li>
                                </ul> 
                            </li>

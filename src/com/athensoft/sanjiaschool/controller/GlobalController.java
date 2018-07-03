@@ -28,9 +28,7 @@ public class GlobalController {
 	public String gotoContactus(){
 		return "contactus";
 	}
-	
-
-	
+		
 	@RequestMapping("/gallery.html")
 	public String gotoGallery(){
 		return "gallery";

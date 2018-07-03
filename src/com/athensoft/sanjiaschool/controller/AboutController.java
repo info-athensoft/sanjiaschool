@@ -25,4 +25,6 @@ public class AboutController {
 	public String gotoAboutusTeam(){
 		return "aboutus-team";
 	}
+	
+	
 }
