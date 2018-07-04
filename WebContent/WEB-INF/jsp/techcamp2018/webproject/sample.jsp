@@ -79,6 +79,9 @@
 		<p>Story of feature 3, write something to describe feature 1 here</p>
 		<br/><br/>
 		
+		<a href="http://www.google.com">Click me to go to google</a>
+		
+		
 		<br/>
 		<footer>
 			<h4>Digital Footprint</h4>
