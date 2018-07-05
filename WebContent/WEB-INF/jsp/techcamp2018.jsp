@@ -278,126 +278,18 @@
 						
 					
 						<div class="row">
-						
+							<c:forEach var="picNum" begin="1" end="8" step="1">
 							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
 								<div class="gallery">
 									<div class="gallery__thumb">
-										<a href="/techcamp/leon.html">
-											<img src="${site_img_dir}/techcamp/leon.jpg" alt="gallery images">
+										<a href="${site_img_dir}/techcamp/robot/${picNum}.jpg">
+											<img src="${site_img_dir}/techcamp/robot/${picNum}.jpg" alt="robot images">
 										</a>
 									</div>
 								</div>
-								<div class="text-center">
-									<h4>Construction &amp; Traffic</h4>
-									<h5>by Leon</h5>
-									<h5>Grade 5, Group 1</h5>
-								</div>	
 							</div>
-						
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-								<div class="gallery">
-									<div class="gallery__thumb text-center">
-										<a href="/techcamp/tony.html">
-											<img src="${site_img_dir}/techcamp/tony.jpg" alt="gallery images">
-										</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<h4>Birds</h4>
-									<h5>by Tony</h5>
-									<h5>Grade 5, Group 1</h5>
-								</div>	
-							</div>
-						
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-								<div class="gallery">
-									<div class="gallery__thumb text-center">
-										<a href="/techcamp/neilson.html">
-											<img src="${site_img_dir}/techcamp/neilson.jpg" alt="gallery images">
-										</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<h4>Restaurants</h4>
-									<h5>by Neilson</h5>
-									<h5>Grade 4, Group 2</h5>
-								</div>	
-							</div>
-						
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-								<div class="gallery">
-									<div class="gallery__thumb text-center">
-										<a href="/techcamp/yixuan.html">
-											<img src="${site_img_dir}/techcamp/yixuan.jpg" alt="gallery images">
-										</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<h4>Nature</h4>
-									<h5>by Yixuan</h5>
-									<h5>Grade 7, Group 2</h5>	
-								</div>
-							</div>
-						
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-								<div class="gallery">
-									<div class="gallery__thumb text-center">
-										<a href="/techcamp/heqiao.html">
-											<img src="${site_img_dir}/techcamp/heqiao.jpg" alt="gallery images">
-										</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<h4>Plants</h4>
-									<h5>by HeQiao</h5>
-									<h5>Grade 4, Group 3</h5>	
-								</div>
-							</div>
-						
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-								<div class="gallery">
-									<div class="gallery__thumb text-center">
-										<a href="/techcamp/carl.html">
-											<img src="${site_img_dir}/techcamp/carl.jpg" alt="gallery images">
-										</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<h4>Old Port</h4>
-									<h5>by Carl</h5>
-									<h5>Grade 4, Group 3</h5>	
-								</div>	
-							</div>
-						
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-								<div class="gallery">
-									<div class="gallery__thumb text-center">
-										<a href="/techcamp/ethan.html">
-											<img src="${site_img_dir}/techcamp/ethan.jpg" alt="gallery images">
-										</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<h4>Schools</h4>
-									<h5>by Ethan</h5>
-									<h5>Grade 3, Group 1</h5>	
-							    </div>
-							</div>
+							</c:forEach>
 							
-							<div class="col-lg-3 col-md-6 col-sm-6 col-12">
-								<div class="gallery">
-									<div class="gallery__thumb text-center">
-										<a href="/techcamp/sample.html">
-											<img src="${site_img_dir}/techcamp/athens.jpg" alt="gallery images">
-										</a>
-									</div>
-								</div>
-								<div class="text-center">
-									<h4>Sample topic</h4>
-									<h5>by Athens</h5>
-									<h5>IT Coach</h5>	
-							    </div>
-							</div>
 						</div>
 						
 					</div>
