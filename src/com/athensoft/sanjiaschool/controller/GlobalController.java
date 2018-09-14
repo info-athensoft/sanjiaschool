@@ -21,13 +21,6 @@ public class GlobalController {
 	public String gotoIndex3(){
 		return "index";
 	}
-	
-	
-	
-	@RequestMapping("/contactus.html")
-	public String gotoContactus(){
-		return "contactus";
-	}
 		
 	@RequestMapping("/gallery.html")
 	public String gotoGallery(){

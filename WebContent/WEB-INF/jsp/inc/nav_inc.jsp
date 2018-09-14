@@ -93,7 +93,7 @@
                             
                            <li class="drop"><a href="/contactus.html"><spring:message code="menu-contactus"/></a>
                                <ul class="dropdown__menu">
-                                   <li class="drop"><a href="#"><spring:message code="menu-career"/></a></li>
+                                   <li class="drop"><a href="/career-kidgarden.html"><spring:message code="menu-career"/></a></li>
                                </ul>
                            </li>
                             
