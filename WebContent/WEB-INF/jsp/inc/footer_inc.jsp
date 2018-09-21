@@ -187,7 +187,7 @@
 			<div class="row align-items-center copyright__wrapper">
 				<div class="col-lg-6 col-md-6 col-sm-12">
 					<div class="coppy__right__inner">
-						<p><i class="fa fa-copyright"></i><spring:message code="footer-copyright"/> <a href="#"> <spring:message code="footer-company"/></a></p>
+						<p><i class="fa fa-copyright"></i><spring:message code="footer-copyright"/> <a href="#"> <spring:message code="header-companyname2"/></a></p>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-sm-12">
