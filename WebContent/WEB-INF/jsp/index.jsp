@@ -370,15 +370,14 @@
 							<p class="wow flipInX">
 								<ul>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-1"/></li>
-									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-2"/></li>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-3"/></li>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-4"/></li>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-5"/></li>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-6"/></li>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-7"/></li>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-8"/></li>
-									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-11"/></li>
 									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-12"/></li>
+									<li><i class="fa fa-thumbs-o-up"></i>&nbsp;&nbsp;&nbsp;<spring:message code="home-section-welcome-feature-2"/></li>
 								</ul>
 							
 							</p>
