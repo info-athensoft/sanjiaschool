@@ -35,7 +35,7 @@
 				<div class="mainmenu__wrap">
 					<nav class="mainmenu__nav">
                        <ul class="mainmenu">
-                           <li class="drop"><a href="/index.html"><spring:message code="menu-home"/></a>
+                           <li class="drop"><a href="/index.html?lang=${loc}"><spring:message code="menu-home"/></a>
                            <!-- 
                                <ul class="dropdown__menu">
                                    <li><a href="#"><spring:message code="menu-about-schoolcalendar"/></a></li>
@@ -49,11 +49,11 @@
                                    <li><a href="/aboutus-history.html?lang=${loc}"><spring:message code="menu-about-history"/></a></li>
                                    <li><a href="/aboutus-team.html?lang=${loc}"><spring:message code="menu-about-team"/></a></li>
                                   <!--  <li><a href="/aboutus-partner.html?lang=${loc}"><spring:message code="menu-about-partner"/></a></li>  -->
-                                   <li><a href="/tech-camp-2018.html"><spring:message code="menu-show-techcamp-2018"/></a></li>
-                                   <li><a href="/gallery.html"><spring:message code="menu-show"/></a></li>
+                                   <li><a href="/tech-camp-2018.html?lang=${loc}"><spring:message code="menu-show-techcamp-2018"/></a></li>
+                                   <li><a href="/gallery.html?lang=${loc}"><spring:message code="menu-show"/></a></li>
                                </ul> 
                            </li>
-                           <li class="drop"><a href="#"><spring:message code="menu-intlexchange"/></a>
+                           <li class="drop"><a href="?lang=${loc}#"><spring:message code="menu-intlexchange"/></a>
                                <ul class="dropdown__menu">
                                    <li><a href="/intlexchange-intlcamps.html?lang=${loc}"><spring:message code="menu-intlexchange-intlcamps"/></a></li>
                                    <li><a href="/intlexchange-originchina.html?lang=${loc}"><spring:message code="menu-intlexchange-originchina"/></a></li>
@@ -61,7 +61,7 @@
                                    <li><a href="/intlexchange-intlvisit.html?lang=${loc}"><spring:message code="menu-intlexchange-intlvisit"/></a></li>
                                </ul>
                            </li>
-                           <li class="drop"><a href="#"><spring:message code="menu-course"/></a>
+                           <li class="drop"><a href="?lang=${loc}#"><spring:message code="menu-course"/></a>
                                <ul class="dropdown__menu">
                                		<li><a href="/course-tech.html?lang=${loc}"><spring:message code="menu-course-tech"/></a></li>
                                	   	<li><a href="/course-chinesesl.html?lang=${loc}"><spring:message code="menu-course-chinesesl"/></a></li>
@@ -91,9 +91,9 @@
                               
                            </li>
                             
-                           <li class="drop"><a href="/contactus.html"><spring:message code="menu-contactus"/></a>
+                           <li class="drop"><a href="/contactus.html?lang=${loc}"><spring:message code="menu-contactus"/></a>
                                <ul class="dropdown__menu">
-                                   <li class="drop"><a href="/career-kidgarden.html"><spring:message code="menu-career"/></a></li>
+                                   <li class="drop"><a href="/career-kidgarden.html?lang=${loc}"><spring:message code="menu-career"/></a></li>
                                </ul>
                            </li>
                             
