@@ -121,8 +121,8 @@
 					<ul class="dacre__social__link d-flex justify-content-center justify-content-md-end justify-content-lg-end">
 						<li class="wechat"><a href="/contactus.html?lang=${loc}"><i class="fa fa-wechat"></i></a></li>
 						<li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-						<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<!-- <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>  -->
+						<!--<li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						 <li class="youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>  -->
 					</ul>
 				</div>
 			</div>
