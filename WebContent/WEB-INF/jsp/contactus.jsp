@@ -233,6 +233,7 @@
 		
 		 
         <!-- Start Overview Area -->
+        <!-- 
 		<section class="dcare__choose__us__area section-padding--lg bg--white bg-image--1">
 			<div class="container">
 				<div class="row">
@@ -246,7 +247,7 @@
 				
 				<div class="container-fluid">
 					<div class="row galler__wrap">
-						<!-- Start Single Gallery -->
+						
 						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
@@ -264,8 +265,7 @@
 								</div>
 							</div>	
 						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
+						
 						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
@@ -283,8 +283,7 @@
 								</div>
 							</div>	
 						</div>	
-						<!-- End Single Gallery -->
-						<!-- Start Single Gallery -->
+						
 						<div class="col-lg-4 col-md-6 col-sm-6 col-12">
 							<div class="gallery">
 								<div class="gallery__thumb">
@@ -302,12 +301,12 @@
 								</div>
 							</div>	
 						</div>	
-						<!-- End Single Gallery -->
+						
 						
 					</div>	
 				</div>
 			</div>
-		</section>
+		</section>  -->
 		<!-- End Overview Area -->
         
 		
@@ -317,7 +316,8 @@
         		<div class="row">
         			<div class="col-lg-12">
         				<div class="google__map">
-        					<div id="googleMap"></div>
+        					<!-- <div id="googleMap"></div>  -->
+        					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11852.073572114023!2d-73.66092404601248!3d45.49564475194378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc919d06f88066f%3A0xecd4e14e6c254ae5!2s5005+Rue+Jean-Talon%2C+Montreal%2C+QC+H4P+1W7!5e0!3m2!1sen!2sca!4v1546729663284" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         				</div>
         			</div>
         		</div>
@@ -419,9 +419,12 @@
 	<script src="${webapp_name}/js/popper.min.js"></script>
 	<script src="${webapp_name}/js/bootstrap.min.js"></script>
 	    <!-- Google Map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmGmeot5jcjdaJTvfCmQPfzeoG_pABeWo"></script>
+    
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmGmeot5jcjdaJTvfCmQPfzeoG_pABeWo"></script>  -->
     <script>
         // When the window has finished loading create our google map below
+        
+        /*
         google.maps.event.addDomListener(window, 'load', init);
 
         function init() {
@@ -434,8 +437,8 @@
                 scrollwheel: false,
 
                 // The latitude and longitude to center the map (always required)
-                center: new google.maps.LatLng(45.4818917,-73.6184626), // Montreal
-
+                center: new google.maps.LatLng(45.4970317,-73.6511035), // Montreal
+         
                 // How you would like to style the map. 
                 // This is where you would paste any style found on Snazzy Maps.
                  styles:
@@ -471,16 +474,19 @@
 				        ]
 				    }
 				]
-            };
+            }; 
 
             // Get the HTML DOM element that will contain your map 
             // We are using a div with id="map" seen below in the <body>
-            var mapElement = document.getElementById('googleMap');
+            
+            //var mapElement = document.getElementById('googleMap');
 
             // Create the Google Map using our element and options defined above
-            var map = new google.maps.Map(mapElement, mapOptions);
+            
+            //var map = new google.maps.Map(mapElement, mapOptions);
 
             // Let's also add a marker while we're at it
+            
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(45.4818917,-73.6184626),
                 map: map,
@@ -488,8 +494,8 @@
                 icon: '/images/icons/map.png',
                 animation:google.maps.Animation.BOUNCE
 
-            });
-        }
+            }); 
+        }*/
     </script>
 	<script src="${webapp_name}/js/plugins.js"></script>
 	<script src="${webapp_name}/js/active.js"></script>
