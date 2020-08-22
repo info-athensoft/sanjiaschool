@@ -6,9 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class AdultprogController {
 	
+//	@RequestMapping("/adultprog.html")
+//	public String gotoAdultprog(){
+//		return "adultprog";
+//	}
+	
 	@RequestMapping("/adultprog.html")
-	public String gotoAdultprog(){
-		return "adultprog";
+	public String gotoAdultprog2020(){
+		return "adultprog-2020";
 	}
 	
 	@RequestMapping("/adultprog-smallbiz.html")
