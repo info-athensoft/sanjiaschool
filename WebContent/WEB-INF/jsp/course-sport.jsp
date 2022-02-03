@@ -151,6 +151,7 @@
 					</div>
 					<!-- End Single Service -->
 					<!-- Start Single Service -->
+					<!-- 
 					<div class="col-lg-4 col-md-6 col-sm-6 col-12 md-mt-60 sm-mt-60">
 						<div class="service bg--white border__color border__color--3 wow fadeInUp" data-wow-delay="0.45s">
 							<div class="service__icon">
@@ -164,7 +165,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
+					</div>   -->
 					<!-- End Single Service -->
 					
 				</div>
